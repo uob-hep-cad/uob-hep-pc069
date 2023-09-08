@@ -1,0 +1,582 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ RSMD0603_1/10W-51,1%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R27                 RSMD0603_1/10W-51,1%  -33.470 25.7000 RSMD0402_1/16W-51,1%
+ R30                 RSMD0603_1/10W-51,1%  -10.600 61.0000 RSMD0402_1/16W-51,1%
+ R31                 RSMD0603_1/10W-51,1%  -10.600 55.1500 RSMD0402_1/16W-51,1%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2           -20.100 23.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C1.2           -20.100 23.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i325@cnpassive.capcersmdcl2(chips)
+ C2.2           -23.100 35.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C2.2           -23.100 35.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i331@cnpassive.capcersmdcl2(chips)
+ C3.2           -18.600 28.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C3.2           -18.600 28.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i244@cnpassive.capcersmdcl2(chips)
+ C4.2           -25.700 30.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C4.2           -25.700 30.0000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i247@cnpassive.capcersmdcl2(chips)
+ C5.2           -22.370 32.0500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C5.2           -22.370 32.0500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i246@cnpassive.capcersmdcl2(chips)
+ C6.2           -58.100 10.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C6.2           -58.100 10.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i242@cnpassive.capcersmdcl2(chips)
+ C7.2           -23.000 23.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C7.2           -23.000 23.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i349@cnpassive.capcersmdcl2(chips)
+ C8.2           -21.700 23.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C8.2           -21.700 23.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i337@cnpassive.capcersmdcl2(chips)
+ C9.2           -8.6000  1.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C9.2           -8.6000  1.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i91@cnpassive.capcersmdcl2(chips)
+ C10.2          -55.100 12.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C10.2          -55.100 12.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i59@cnpassive.capcersmdcl2(chips)
+ C11.2          -21.100 44.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C11.2          -21.100 44.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i338@cnpassive.capcersmdcl2(chips)
+ C12.2          -61.520 17.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/chips.prt
+ C12.2          -61.520 17.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i89@cnpassive.elcaptan(chips)
+ C13.2          -37.170 24.8500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C13.2          -37.170 24.8500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i106@cnpassive.capcersmdcl2(chips)
+ C14.2          -55.120 19.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C14.2          -55.120 19.2000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i107@cnpassive.capcersmdcl2(chips)
+ C15.2          -21.300 49.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C15.2          -21.300 49.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i157@cnpassive.capcersmdcl2(chips)
+ C16.2          -10.600 32.8500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C16.2          -10.600 32.8500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i193@cnpassive.capcersmdcl2(chips)
+ C17.2          -29.150 21.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C17.2          -29.150 21.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i278@cnpassive.capcersmdcl2(chips)
+ C18.2          -6.7000 11.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C18.2          -6.7000 11.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i183@cnpassive.capcersmdcl2(chips)
+ C19.2          -41.170 33.2500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C19.2          -41.170 33.2500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i108@cnpassive.capcersmdcl2(chips)
+ C20.2          -50.520 30.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C20.2          -50.520 30.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i109@cnpassive.capcersmdcl2(chips)
+ C21.2          -43.000 16.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C21.2          -43.000 16.2000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i119@cnpassive.capcersmdcl2(chips)
+ C22.2          -57.100 13.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C22.2          -57.100 13.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i117@cnpassive.capcersmdcl2(chips)
+ C23.2          -37.300 23.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C23.2          -37.300 23.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i113@cnpassive.capcersmdcl2(chips)
+ C24.2          -32.600 34.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C24.2          -32.600 34.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i115@cnpassive.capcersmdcl2(chips)
+ C25.2          -45.100 16.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C25.2          -45.100 16.2000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i120@cnpassive.capcersmdcl2(chips)
+ C26.2          -37.300 22.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C26.2          -37.300 22.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i114@cnpassive.capcersmdcl2(chips)
+ C27.2          -30.100 34.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C27.2          -30.100 34.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i116@cnpassive.capcersmdcl2(chips)
+ C28.2          -58.600 13.6000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C28.2          -58.600 13.6000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i118@cnpassive.capcersmdcl2(chips)
+ C29.2          -12.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C29.2          -12.600 37.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i156@cnpassive.capcersmdcl2(chips)
+ C30.2          -22.600 19.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C30.2          -22.600 19.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i155@cnpassive.capcersmdcl2(chips)
+ C31.2          -48.300 32.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C31.2          -48.300 32.6500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i98@cnpassive.capcersmdcl2(chips)
+ C32.2          -43.620 33.2500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C32.2          -43.620 33.2500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i102@cnpassive.capcersmdcl2(chips)
+ C33.2          -15.650 60.7500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C33.2          -15.650 60.7500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i146@cnpassive.capcersmdcl2(chips)
+ C34.2          -15.750 58.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C34.2          -15.750 58.2000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i147@cnpassive.capcersmdcl2(chips)
+ C35.2          -51.000 35.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C35.2          -51.000 35.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i154@cnpassive.capcersmdcl2(chips)
+ C36.2          -5.0000 61.8500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C36.2          -5.0000 61.8500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i148@cnpassive.capcersmdcl2(chips)
+ C37.2          -28.450 16.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C37.2          -28.450 16.6500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i149@cnpassive.capcersmdcl2(chips)
+ C38.2          -24.600 23.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C38.2          -24.600 23.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i346@cnpassive.capcersmdcl2(chips)
+ C39.2          -21.800 35.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C39.2          -21.800 35.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i332@cnpassive.capcersmdcl2(chips)
+ C40.2          -46.200 33.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C40.2          -46.200 33.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i151@cnpassive.capcersmdcl2(chips)
+ C41.2          -47.850 36.6000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C41.2          -47.850 36.6000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i152@cnpassive.capcersmdcl2(chips)
+ C42.2          -33.600 15.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C42.2          -33.600 15.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i315@cnpassive.capcersmdcl2(chips)
+ C45.2          -42.420 33.2500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C45.2          -42.420 33.2500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i101@cnpassive.capcersmdcl2(chips)
+ C46.2          -50.770 28.9500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C46.2          -50.770 28.9500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i100@cnpassive.capcersmdcl2(chips)
+ C47.2          -37.720 27.9500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C47.2          -37.720 27.9500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i105@cnpassive.capcersmdcl2(chips)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C48.2          -50.670 27.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C48.2          -50.670 27.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i104@cnpassive.capcersmdcl2(chips)
+ C49.2          -50.520 25.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C49.2          -50.520 25.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i103@cnpassive.capcersmdcl2(chips)
+ C52.2          -9.6000 63.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C52.2          -9.6000 63.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i333@cnpassive.capcersmdcl2(chips)
+ C53.2          -9.6000 57.8500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C53.2          -9.6000 57.8500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i335@cnpassive.capcersmdcl2(chips)
+ C55.2          -7.5000 64.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C55.2          -7.5000 64.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i332@cnpassive.capcersmdcl2(chips)
+ C56.2          -7.5000 59.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C56.2          -7.5000 59.0000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i334@cnpassive.capcersmdcl2(chips)
+ C57.2          -23.000 59.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C57.2          -23.000 59.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i338@cnpassive.capcersmdcl2(chips)
+ C58.2          -24.100 59.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C58.2          -24.100 59.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i336@cnpassive.capcersmdcl2(chips)
+ C59.2          -37.592 60.4520 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C59.2          -37.592 60.4520 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i337@cnpassive.capcersmdcl2(chips)
+ C60.2          -37.592 59.3090 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C60.2          -37.592 59.3090 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i339@cnpassive.capcersmdcl2(chips)
+ C61.2          -8.8950 48.0400 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C61.2          -8.8950 48.0400 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i285@cnpassive.capcersmdcl2(chips)
+ C62.2          -26.035 44.7040 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C62.2          -26.035 44.7040 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i222@cnpassive.capcersmdcl2(chips)
+ C63.2          -26.035 45.9740 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C63.2          -26.035 45.9740 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i221@cnpassive.capcersmdcl2(chips)
+ C64.2          -26.416 47.6250 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C64.2          -26.416 47.6250 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i238@cnpassive.capcersmdcl2(chips)
+ C69.2          -31.300 34.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C69.2          -31.300 34.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i215@cnpassive.capcersmdcl2(chips)
+ C70.2          -31.070 22.8500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C70.2          -31.070 22.8500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i216@cnpassive.capcersmdcl2(chips)
+ C71.2          -10.500 22.4500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C71.2          -10.500 22.4500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i217@cnpassive.capcersmdcl2(chips)
+ C72.2          -51.050 18.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C72.2          -51.050 18.6500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i218@cnpassive.capcersmdcl2(chips)
+ C107.2         -16.700 35.0500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C107.2         -16.700 35.0500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i199@cnpassive.capcersmdcl2(chips)
+ C117.2         -33.370 19.9500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C117.2         -33.370 19.9500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i270@cnpassive.capcersmdcl2(chips)
+ IC1.7          -29.720 19.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/pca9306/chips/chips.prt
+ IC1.7          -29.720 19.6500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i276@cninterface.pca9306(chips)
+ IC2.4          -9.4000  9.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnmemory/24aa025e48/chips/chips.prt
+ IC2.4          -9.4000  9.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i228@cnmemory.\24aa025e48\(chips)
+ IC3.9          -43.870 26.6000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/si5345/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC3.9          -43.870 26.6000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i129@cninterface.si5345(chips)
+ IC4.2          -18.100 44.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sy58608u/chips/chips.prt
+ IC4.2          -18.100 44.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i337@cninterface.sy58608u(chips)
+ IC6.2          -7.7000 62.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/adcmp604/chips/chips.prt
+ IC6.2          -7.7000 62.0000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i285@cnlinear.adcmp604(chips)
+ IC7.2          -7.7000 56.1500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/adcmp604/chips/chips.prt
+ IC7.2          -7.7000 56.1500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i294@cnlinear.adcmp604(chips)
+ IC8.6          -18.400 61.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/ds90lv028a/chips/chips.prt
+ IC8.6          -18.400 61.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i327@cninterface.ds90lv028a(chips)
+ IC8.7          -18.400 61.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/ds90lv028a/chips/chips.prt
+ IC8.7          -18.400 61.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i328@cninterface.ds90lv028a(chips)
+ IC9.2          -34.000 60.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.2          -34.000 60.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i318@cninterface.\74lcx04\(chips)
+ IC9.4          -34.000 60.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.4          -34.000 60.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i317@cninterface.\74lcx04\(chips)
+ IC9.6          -34.000 60.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.6          -34.000 60.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i324@cninterface.\74lcx04\(chips)
+ IC9.8          -34.000 60.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.8          -34.000 60.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i323@cninterface.\74lcx04\(chips)
+ IC9.10         -34.000 60.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.10         -34.000 60.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i304@cninterface.\74lcx04\(chips)
+ IC9.12         -34.000 60.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.12         -34.000 60.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i310@cninterface.\74lcx04\(chips)
+ IC10.10        -14.392 47.3150 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC10.10        -14.392 47.3150 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i269(1)@cninterface.\74avc4t245\(chips)
+ IC10.10        -14.392 47.3150 SWAP_GROUP     @UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE11_I269@CNINTERFACE.74AVC4T245(CHIPS)
+ IC10.11        -14.392 47.3150 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC10.11        -14.392 47.3150 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i269(0)@cninterface.\74avc4t245\(chips)
+ IC10.11        -14.392 47.3150 SWAP_GROUP     @UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE11_I269@CNINTERFACE.74AVC4T245(CHIPS)
+ IC10.12        -14.392 47.3150 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC10.12        -14.392 47.3150 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i274(1)@cninterface.\74avc4t245\(chips)
+ IC10.12        -14.392 47.3150 SWAP_GROUP     @UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE11_I274@CNINTERFACE.74AVC4T245(CHIPS)
+ IC10.13        -14.392 47.3150 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC10.13        -14.392 47.3150 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i274(0)@cninterface.\74avc4t245\(chips)
+ IC10.13        -14.392 47.3150 SWAP_GROUP     @UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE11_I274@CNINTERFACE.74AVC4T245(CHIPS)
+ IC11.5         -37.070 17.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/tmp1075ndrlr/chips/chips.prt
+ IC11.5         -37.070 17.5500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i308@bris_cds_logic.tmp1075ndrlr(chips)
+ IC15.8         -13.185 32.8380 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/pca9517/chips/chips.prt
+ IC15.8         -13.185 32.8380 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i162@cninterface.pca9517(chips)
+ IC18.4         -20.700 48.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sn74lvc2gu04/chips/chips.prt
+ IC18.4         -20.700 48.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i291@cninterface.sn74lvc2gu04(chips)
+ IC18.6         -20.700 48.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sn74lvc2gu04/chips/chips.prt
+ IC18.6         -20.700 48.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i292@cninterface.sn74lvc2gu04(chips)
+ J2.1           -18.120 16.4500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J2.1           -18.120 16.4500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i304@cnconnector.pcoax(chips)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J3.3           -30.100 31.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J3.3           -30.100 31.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i33@cnconnector.con3p(chips)
+ J4.20          -29.900 45.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con20p_sfp/chips/chips.prt
+ J4.20          -29.900 45.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i175@cnconnector.con20p_sfp(chips)
+ J5.3           -37.120 35.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J5.3           -37.120 35.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i170@cnconnector.con3p(chips)
+ J6.3           -14.120  7.3500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J6.3           -14.120  7.3500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i171@cnconnector.con3p(chips)
+ J7.1           -18.170 12.1500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J7.1           -18.170 12.1500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i305@cnconnector.pcoax(chips)
+ J8.3           -7.1000 25.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J8.3           -7.1000 25.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i284@cnconnector.con3p(chips)
+ J10.3          -7.1000 39.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J10.3          -7.1000 39.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i285@cnconnector.con3p(chips)
+ J11.4          -11.500 -1.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con4p/chips/chips.prt
+ J11.4          -11.500 -1.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i174@cnconnector.con4p(chips)
+ J12.1          -57.800 34.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J12.1          -57.800 34.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i152@cnconnector.pcoax(chips)
+ J13.1          -57.800 30.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J13.1          -57.800 30.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i153@cnconnector.pcoax(chips)
+ J14.1          -15.870 25.7500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J14.1          -15.870 25.7500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i306@cnconnector.pcoax(chips)
+ J15.1          -15.920 21.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J15.1          -15.920 21.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i307@cnconnector.pcoax(chips)
+ L1.2           -29.718 46.8630 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/inductance/chips/chips.prt
+ L1.2           -29.718 46.8630 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i99@cndiscrete.inductance(chips)
+ L2.2           -26.924 42.4180 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/inductance/chips/chips.prt
+ L2.2           -26.924 42.4180 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i105@cndiscrete.inductance(chips)
+ L3.2           -55.250  9.8500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
+ L3.2           -55.250  9.8500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i171@cndiscrete.ferrite(chips)
+ LD1.2          -22.100 54.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ LD1.2          -22.100 54.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i225@cndiscrete.led1(chips)
+ LD2.2          -20.600 54.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ LD2.2          -20.600 54.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i226@cndiscrete.led1(chips)
+ LD3.2          -19.100 54.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ LD3.2          -19.100 54.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i227@cndiscrete.led1(chips)
+ P1.B9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.B9           1.9850 31.5350 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i139@cnconnector.con400p_40abcdefghjk(chips)
+ P1.D9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.D9           1.9850 31.5350 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i126@cnconnector.con400p_40abcdefghjk(chips)
+ P1.F9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.F9           1.9850 31.5350 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i136@cnconnector.con400p_40abcdefghjk(chips)
+ P1.H9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.H9           1.9850 31.5350 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i129@cnconnector.con400p_40abcdefghjk(chips)
+ P1.K9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ P1.K9           1.9850 31.5350 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i128@cnconnector.con400p_40abcdefghjk(chips)
+ PX1.1          -33.958 28.3550 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX1.1          -33.958 28.3550 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i161@cnconnector.pcoax(chips)
+ PX2.1          -13.459 62.3290 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX2.1          -13.459 62.3290 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i284@cnconnector.pcoax(chips)
+ PX3.1          -13.459 56.4790 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX3.1          -13.459 56.4790 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i303@cnconnector.pcoax(chips)
+ PX4.1          -48.100 59.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX4.1          -48.100 59.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i312@cnconnector.pcoax(chips)
+ PX5.1          -26.433 56.4960 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX5.1          -26.433 56.4960 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i321@cnconnector.pcoax(chips)
+ PX6.1          -26.400 62.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX6.1          -26.400 62.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i315@cnconnector.pcoax(chips)
+ QZ1.4          -50.400 11.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/osc_6p_endis_outp_outn/chips/chips.prt
+ QZ1.4          -50.400 11.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i157@cndiscrete.osc_6p_endis_outp_outn(chips)
+ R1.2           -26.270 20.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R1.2           -26.270 20.2000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i279@cnpassive.rsmd0402(chips)
+ R2.2           -20.900 25.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R2.2           -20.900 25.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i336@cnpassive.rsmd0603(chips)
+ R3.2           -23.800 25.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R3.2           -23.800 25.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i352@cnpassive.rsmd0603(chips)
+ R4.2           -20.100 26.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R4.2           -20.100 26.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i339@cnpassive.rsmd0603(chips)
+ R5.2           -24.600 35.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R5.2           -24.600 35.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i330@cnpassive.rsmd0402(chips)
+ R6.2           -20.300 35.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R6.2           -20.300 35.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i329@cnpassive.rsmd0402(chips)
+ R7.2           -43.870 19.9500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R7.2           -43.870 19.9500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i26@cnpassive.rsmd0402(chips)
+ R8.2           -46.900 19.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R8.2           -46.900 19.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i45@cnpassive.rsmd0402(chips)
+ R10.2          -46.370 16.1500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R10.2          -46.370 16.1500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i16@cnpassive.rsmd0402(chips)
+ R11.2          -40.400 20.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R11.2          -40.400 20.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i32@cnpassive.rsmd0402(chips)
+ R12.2          -20.100 22.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R12.2          -20.100 22.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i340@cnpassive.rsmd0603(chips)
+ R13.2          -44.320 35.7500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R13.2          -44.320 35.7500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i47@cnpassive.rsmd0402(chips)
+ R16.2          -34.670 22.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R16.2          -34.670 22.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i14@cnpassive.rsmd0402(chips)
+ R17.2          -40.500 16.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R17.2          -40.500 16.0000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i53@cnpassive.rsmd0402(chips)
+ R18.2          -37.220 26.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R18.2          -37.220 26.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i124@cnpassive.rsmd0402(chips)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R19.2          -41.600 16.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R19.2          -41.600 16.0000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i52@cnpassive.rsmd0402(chips)
+ R20.2          -50.370 21.9500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R20.2          -50.370 21.9500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i49@cnpassive.rsmd0402(chips)
+ R21.2          -50.270 23.9500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R21.2          -50.270 23.9500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i50@cnpassive.rsmd0402(chips)
+ R22.2          -33.909 49.5300 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R22.2          -33.909 49.5300 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i104@cnpassive.rsmd0402(chips)
+ R23.2          -33.909 48.2600 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R23.2          -33.909 48.2600 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i102@cnpassive.rsmd0402(chips)
+ R24.2          -33.909 46.9900 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R24.2          -33.909 46.9900 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i98@cnpassive.rsmd0402(chips)
+ R25.2          -33.909 45.7200 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R25.2          -33.909 45.7200 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i95@cnpassive.rsmd0402(chips)
+ R26.2          -47.500 34.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R26.2          -47.500 34.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i123@cnpassive.rsmd0402(chips)
+ R27.2          -33.470 25.7000 DIST           FLAT
+ R27.2          -33.470 25.7000 MAX_TEMP       RTMAX
+ R27.2          -33.470 25.7000 NEGTOL         RTOL%
+ R27.2          -33.470 25.7000 PHYS_PAGE      4
+ R27.2          -33.470 25.7000 POSTOL         RTOL%
+ R27.2          -33.470 25.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R27.2          -33.470 25.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i162@cnpassive.rsmd0603(chips)
+ R27.2          -33.470 25.7000 SIZE           1
+ R27.2          -33.470 25.7000 SLOPE          RSMAX
+ R27.2          -33.470 25.7000 TC1            RTMPL
+ R27.2          -33.470 25.7000 TC2            RTMPQ
+ R27.2          -33.470 25.7000 TOL_ON_OFF     ON
+ R27.2          -33.470 25.7000 XY             (1190,1870)
+ R28.2          -33.909 43.8150 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R28.2          -33.909 43.8150 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i109@cnpassive.rsmd0402(chips)
+ R29.2          -33.909 42.5450 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R29.2          -33.909 42.5450 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i103@cnpassive.rsmd0402(chips)
+ R30.2          -10.600 61.0000 DIST           FLAT
+ R30.2          -10.600 61.0000 MAX_TEMP       RTMAX
+ R30.2          -10.600 61.0000 NEGTOL         RTOL%
+ R30.2          -10.600 61.0000 PHYS_PAGE      5
+ R30.2          -10.600 61.0000 POSTOL         RTOL%
+ R30.2          -10.600 61.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R30.2          -10.600 61.0000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i274@cnpassive.rsmd0603(chips)
+ R30.2          -10.600 61.0000 SIZE           1
+ R30.2          -10.600 61.0000 SLOPE          RSMAX
+ R30.2          -10.600 61.0000 TC1            RTMPL
+ R30.2          -10.600 61.0000 TC2            RTMPQ
+ R30.2          -10.600 61.0000 TOL_ON_OFF     ON
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R30.2          -10.600 61.0000 XY             (-2590,2460)
+ R31.2          -10.600 55.1500 DIST           FLAT
+ R31.2          -10.600 55.1500 MAX_TEMP       RTMAX
+ R31.2          -10.600 55.1500 NEGTOL         RTOL%
+ R31.2          -10.600 55.1500 PHYS_PAGE      5
+ R31.2          -10.600 55.1500 POSTOL         RTOL%
+ R31.2          -10.600 55.1500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R31.2          -10.600 55.1500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i301@cnpassive.rsmd0603(chips)
+ R31.2          -10.600 55.1500 SIZE           1
+ R31.2          -10.600 55.1500 SLOPE          RSMAX
+ R31.2          -10.600 55.1500 TC1            RTMPL
+ R31.2          -10.600 55.1500 TC2            RTMPQ
+ R31.2          -10.600 55.1500 TOL_ON_OFF     ON
+ R31.2          -10.600 55.1500 XY             (-2510,990)
+ R34.2          -23.100 26.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R34.2          -23.100 26.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i348@cnpassive.rsmd0603(chips)
+ R35.2          -8.1000 64.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R35.2          -8.1000 64.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i282@cnpassive.rsmd0402(chips)
+ R36.2          -10.600 63.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R36.2          -10.600 63.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i275@cnpassive.rsmd0402(chips)
+ R37.2          -8.1000 58.2500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R37.2          -8.1000 58.2500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i298@cnpassive.rsmd0402(chips)
+ R38.2          -10.600 57.8500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R38.2          -10.600 57.8500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i300@cnpassive.rsmd0402(chips)
+ R39.2          -11.200 11.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R39.2          -11.200 11.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i223@cnpassive.rsmd0402(chips)
+ R40.2          -33.420 17.8500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R40.2          -33.420 17.8500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i272@cnpassive.rsmd0402(chips)
+ R41.2          -33.420 18.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R41.2          -33.420 18.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i273@cnpassive.rsmd0402(chips)
+ R42.2          -16.500 30.1500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R42.2          -16.500 30.1500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i280@cnpassive.rsmd0402(chips)
+ R43.2          -9.6000 24.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R43.2          -9.6000 24.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i264@cnpassive.rsmd0402(chips)
+ R45.2          -18.000 58.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R45.2          -18.000 58.2000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i325@cnpassive.rsmd0402(chips)
+ R46.2          -18.000 60.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R46.2          -18.000 60.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i319@cnpassive.rsmd0402(chips)
+ R47.2          -43.400 59.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R47.2          -43.400 59.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i311@cnpassive.rsmd0603(chips)
+ R48.2          -31.000 56.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R48.2          -31.000 56.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i322@cnpassive.rsmd0603(chips)
+ R49.2          -31.000 62.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R49.2          -31.000 62.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page5_i316@cnpassive.rsmd0603(chips)
+ R50.2          -22.100 51.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R50.2          -22.100 51.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i232@cnpassive.rsmd0402(chips)
+ R51.2          -20.600 51.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R51.2          -20.600 51.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i233@cnpassive.rsmd0402(chips)
+ R52.2          -23.100 22.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R52.2          -23.100 22.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i350@cnpassive.rsmd0603(chips)
+ R53.2          -21.600 26.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R53.2          -21.600 26.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i328@cnpassive.rsmd0603(chips)
+ R54.2          -21.600 22.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R54.2          -21.600 22.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i327@cnpassive.rsmd0603(chips)
+ R55.2          -24.600 26.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R55.2          -24.600 26.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i343@cnpassive.rsmd0603(chips)
+ R56.2          -19.100 51.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R56.2          -19.100 51.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i236@cnpassive.rsmd0402(chips)
+ R57.2          -24.600 22.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R57.2          -24.600 22.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i344@cnpassive.rsmd0603(chips)
+ R58.2          -14.400 43.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R58.2          -14.400 43.5000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i312@cnpassive.rsmd0402(chips)
+ R59.2          -14.400 44.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R59.2          -14.400 44.7000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i313@cnpassive.rsmd0402(chips)
+ R60.2          -21.270 44.7500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R60.2          -21.270 44.7500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i314@cnpassive.rsmd0402(chips)
+ R61.2          -36.670 15.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R61.2          -36.670 15.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i314@cnpassive.rsmd0402(chips)
+ R103.2         -10.000 11.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R103.2         -10.000 11.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i222@cnpassive.rsmd0402(chips)
+ R138.2         -8.8000  7.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R138.2         -8.8000  7.0000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i257@cnpassive.rsmd0402(chips)
+ R140.2         -18.400 31.1500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R140.2         -18.400 31.1500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i224@cnpassive.rsmd0402(chips)
+ R142.2         -9.0410 31.6780 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R142.2         -9.0410 31.6780 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i226@cnpassive.rsmd0402(chips)
+ R143.2         -9.0410 33.7100 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R143.2         -9.0410 33.7100 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i227@cnpassive.rsmd0402(chips)
+ R242.2         -9.6000 26.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R242.2         -9.6000 26.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i263@cnpassive.rsmd0402(chips)
+ R411.2         -18.400 34.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R411.2         -18.400 34.5500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i225@cnpassive.rsmd0402(chips)
+ R1328.2        -7.4000  7.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R1328.2        -7.4000  7.0000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page2_i259@cnpassive.rsmd0402(chips)
+ REG1.2         -61.170 20.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/lm1117/chips/chips.prt
+ REG1.2         -61.170 20.9000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i158@cnlinear.lm1117(chips)
+ SFP1.NC        -30.000 45.4500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt
+ SFP1.NC        -30.000 45.4500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page1_i176@cnmech.sfp_cage(chips)
+ TP1.1          -43.000 18.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP1.1          -43.000 18.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i154@cnpassive.tp(chips)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP2.1          -45.100 18.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP2.1          -45.100 18.1000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i155@cnpassive.tp(chips)
+ TP3.1          -39.970 18.0500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP3.1          -39.970 18.0500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i156@cnpassive.tp(chips)
+ TP4.1          -55.470 15.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP4.1          -55.470 15.4000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i172@cnpassive.tp(chips)
+ TP5.1          -55.470 17.4500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP5.1          -55.470 17.4500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i173@cnpassive.tp(chips)
+ TP6.1          -57.370 16.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP6.1          -57.370 16.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i174@cnpassive.tp(chips)
+ TP9.1          -41.320 12.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP9.1          -41.320 12.6500 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i29@cnpassive.tp(chips)
+ TP10.1         -35.670 32.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP10.1         -35.670 32.3000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page4_i30@cnpassive.tp(chips)
+ U1.5           -20.500 27.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/max9381esa/chips/chips.prt
+ U1.5           -20.500 27.8000 P_PATH         @uob_hep_pc069_lib.pc069b_toplevel(sch_1):page3_i322@bris_cds_logic.max9381esa(chips)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc069b_toplevel/physical/pc069a_toplevel_13_glossed.brd         |
+|                                                    Mon Aug 21 16:03:34 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R27.1          -32.720 25.7000 CDS_PINID      A(0)
+ R27.2          -34.220 25.7000 CDS_PINID      B(0)
+ R30.1          -10.600 60.2500 CDS_PINID      A(0)
+ R30.2          -10.600 61.7500 CDS_PINID      B(0)
+ R31.1          -10.600 54.4000 CDS_PINID      A(0)
+ R31.2          -10.600 55.9000 CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components changed    :       3                                        |
+|       Pin property added    :       6                                        |
+|       Slot property added   :     421                                        |
+|                                                                              |
+|   Total ECO changes reported:     431                                        |
+|------------------------------------------------------------------------------|

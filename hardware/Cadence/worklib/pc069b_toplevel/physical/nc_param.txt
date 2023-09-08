@@ -13,7 +13,7 @@ SUPPRESS-EQUAL         NO
 TOOL-SELECT            YES
 OPTIMIZE_DRILLING      NO
 ENHANCED_EXCELLON      YES
-TAPE-FILE              Z:/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a.drl
+TAPE-FILE              Z:/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_15.drl
 ROUTE-FILE             Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/artwork/art_pc053e.rou
 HEADER                 none
 LEADER                 12

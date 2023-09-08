@@ -3,12 +3,12 @@
 <ConstraintDifferenceReport Path="file:///software/CAD/Cadence/SPB17.40.034/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Mon Aug 21 16:03:34 2023
+    <Entry Name="Report time">Thu Aug 24 17:50:55 2023
 </Entry>
     <Entry Name="Software version">17.4 (S034)</Entry>
-    <Entry Name="Layout">\projects\HEP_Instrumentation\cad\designs\uob-hep-pc069\hardware\Cadence\worklib\pc069b_toplevel\physical\pc069a_toplevel_13_glossed.brd</Entry>
+    <Entry Name="Layout">\projects\HEP_Instrumentation\cad\designs\uob-hep-pc069\hardware\Cadence\worklib\pc069b_toplevel\physical\pc069b_toplevel_16.brd</Entry>
     <Entry Name="Schematic">\projects\HEP_Instrumentation\cad\designs\uob-hep-pc069\hardware\Cadence\worklib\pc069b_toplevel\packaged\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">\tmp\#Taaaaah27343.tmp</Entry>
+    <Entry Name="Baseline File">\tmp\#Taaaaah20273.tmp</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Diff3</Entry>
     <Entry Name="Constraint Information">CrossSection, Electrical, Physical, Spacing, Same Net Spacing, NetClasses, Assembly, Manufacturing, DFF, DFA, DFT, Properties</Entry>
@@ -17,42 +17,50 @@
 
   <Tree>
     <Item Filter="0x10d" Name="Summary" Ref="main-summary">
-      <Item Filter="0x0" Name="AssemblyBuckets [1]" Ref="d">
-        <Item Filter="0x0" Name="Assembly Layers" Ref="7"/>
+      <Item Filter="0x0" Name="AssemblyBuckets [1]" Ref="11">
+        <Item Filter="0x0" Name="Assembly Layers" Ref="b"/>
       </Item>
-      <Item Filter="0xc" Name="Constraint Sets [3]" Ref="c">
-        <Item Filter="0xc" Name="PhysicalCSets [3]" Ref="b">
-          <Item Filter="0x8" Name="DEFAULT" Ref="4"/>
-          <Item Filter="0xc" Name="DIFFPAIR" Ref="6"/>
-          <Item Filter="0x8" Name="PCS1" Ref="5"/>
+      <Item Filter="0xc" Name="Constraint Sets [3]" Ref="10">
+        <Item Filter="0xc" Name="PhysicalCSets [3]" Ref="f">
+          <Item Filter="0x8" Name="DEFAULT" Ref="8"/>
+          <Item Filter="0xc" Name="DIFFPAIR" Ref="a"/>
+          <Item Filter="0x8" Name="PCS1" Ref="9"/>
         </Item>
       </Item>
-      <Item Filter="0x0" Name="DFTestBuckets [1]" Ref="e">
-        <Item Filter="0x0" Name="Testing Layers" Ref="8"/>
+      <Item Filter="0x0" Name="DFTestBuckets [1]" Ref="12">
+        <Item Filter="0x0" Name="Testing Layers" Ref="c"/>
       </Item>
-      <Item Filter="0x0" Name="DiffPairs [1]" Ref="a">
-        <Item Filter="0x0" Name="FMC_LA07" Ref="3"/>
+      <Item Filter="0x0" Name="DiffPairs [1]" Ref="e">
+        <Item Filter="0x0" Name="FMC_LA07" Ref="7"/>
       </Item>
-      <Item Filter="0x100" Name="Layers [2]" Ref="9">
-        <Item Filter="0x100" Name="L2_GND" Ref="1"/>
-        <Item Filter="0x100" Name="L3_SIGN" Ref="2"/>
+      <Item Filter="0x100" Name="Layers [6]" Ref="d">
+        <Item Filter="0x100" Name="TOP" Ref="1"/>
+        <Item Filter="0x100" Name="L2_GND" Ref="2"/>
+        <Item Filter="0x100" Name="L3_SIGN" Ref="3"/>
+        <Item Filter="0x100" Name="L4_SIGN" Ref="4"/>
+        <Item Filter="0x100" Name="L5_PWR" Ref="5"/>
+        <Item Filter="0x100" Name="BOTTOM" Ref="6"/>
       </Item>
     </Item>
   </Tree>
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0x0" Name="AssemblyBuckets" ObjNumber="1" Ref="d"/>
-      <ChangedObject Filter="0xc" Name="Constraint Sets" ObjNumber="PhysicalCSet: 3" Ref="c"/>
-      <ChangedObject Filter="0x0" Name="DFTestBuckets" ObjNumber="1" Ref="e"/>
-      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="1" Ref="a"/>
-      <ChangedObject Filter="0x100" Name="Layers" ObjNumber="2" Ref="9"/>
+      <ChangedObject Filter="0x0" Name="AssemblyBuckets" ObjNumber="1" Ref="11"/>
+      <ChangedObject Filter="0xc" Name="Constraint Sets" ObjNumber="PhysicalCSet: 3" Ref="10"/>
+      <ChangedObject Filter="0x0" Name="DFTestBuckets" ObjNumber="1" Ref="12"/>
+      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="1" Ref="e"/>
+      <ChangedObject Filter="0x100" Name="Layers" ObjNumber="6" Ref="d"/>
     </MainSummary>
-    <GroupSummary ID="9" Name="Layers">
-      <ChangedObject Attributes="7" Child="0" Filter="0x100" Membership="0" Name="L2_GND" Notes="0" Other="0" Ref="1" Reference="0"/>
-      <ChangedObject Attributes="6" Child="0" Filter="0x100" Membership="0" Name="L3_SIGN" Notes="0" Other="0" Ref="2" Reference="0"/>
+    <GroupSummary ID="d" Name="Layers">
+      <ChangedObject Attributes="1" Child="0" Filter="0x100" Membership="0" Name="TOP" Notes="0" Other="0" Ref="1" Reference="0"/>
+      <ChangedObject Attributes="4" Child="0" Filter="0x100" Membership="0" Name="L2_GND" Notes="0" Other="0" Ref="2" Reference="0"/>
+      <ChangedObject Attributes="6" Child="0" Filter="0x100" Membership="0" Name="L3_SIGN" Notes="0" Other="0" Ref="3" Reference="0"/>
+      <ChangedObject Attributes="1" Child="0" Filter="0x100" Membership="0" Name="L4_SIGN" Notes="0" Other="0" Ref="4" Reference="0"/>
+      <ChangedObject Attributes="1" Child="0" Filter="0x100" Membership="0" Name="L5_PWR" Notes="0" Other="0" Ref="5" Reference="0"/>
+      <ChangedObject Attributes="1" Child="0" Filter="0x100" Membership="0" Name="BOTTOM" Notes="0" Other="0" Ref="6" Reference="0"/>
     </GroupSummary>
-    <ObjectSummary ID="2" Kind="Layer" Name="L3_SIGN" Type="Conductor">
+    <ObjectSummary ID="3" Kind="Layer" Name="L3_SIGN" Type="Conductor">
       <Attributes Filter="0x100" Type="Attributes">
         <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="" Taken="Src" Type="Scalar">
           <Value>
@@ -98,7 +106,51 @@
         </Attribute>
       </Attributes>
     </ObjectSummary>
-    <ObjectSummary ID="1" Kind="Layer" Name="L2_GND" Type="Plane">
+    <ObjectSummary ID="4" Kind="Layer" Name="L4_SIGN" Type="Conductor">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>1</Dst>
+            <Src>4.5</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="5" Kind="Layer" Name="L5_PWR" Type="Plane">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>1</Dst>
+            <Src>4.5</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="6" Kind="Layer" Name="BOTTOM" Type="Conductor">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>1</Dst>
+            <Src>4.5</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="1" Kind="Layer" Name="TOP" Type="Conductor">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>1</Dst>
+            <Src>4.5</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="2" Kind="Layer" Name="L2_GND" Type="Plane">
       <Attributes Filter="0x100" Type="Attributes">
         <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="" Taken="Src" Type="Scalar">
           <Value>
@@ -111,20 +163,6 @@
           <Value>
             <Dst>596000</Dst>
             <Src>595900</Src>
-            <Base></Base>
-          </Value>
-        </Attribute>
-        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="" Taken="Src" Type="Scalar">
-          <Value>
-            <Dst>CONDUCTOR</Dst>
-            <Src>PLANE</Src>
-            <Base></Base>
-          </Value>
-        </Attribute>
-        <Attribute Filter="0x100" Name="CDS_LAYER_IS_SHIELD" Status="Add" Taken="Src" Type="Scalar">
-          <Value>
-            <Dst></Dst>
-            <Src>1</Src>
             <Base></Base>
           </Value>
         </Attribute>
@@ -142,32 +180,25 @@
             <Base></Base>
           </Value>
         </Attribute>
-        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS" Status="" Taken="Src" Type="Scalar">
-          <Value>
-            <Dst>0.03048</Dst>
-            <Src>0.035</Src>
-            <Base></Base>
-          </Value>
-        </Attribute>
       </Attributes>
     </ObjectSummary>
-    <GroupSummary ID="a" Name="DiffPairs">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA07" Notes="1" Other="0" Ref="3" Reference="0"/>
+    <GroupSummary ID="e" Name="DiffPairs">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA07" Notes="1" Other="0" Ref="7" Reference="0"/>
     </GroupSummary>
-    <ObjectSummary ID="3" Kind="DiffPair" Name="FMC_LA07">
+    <ObjectSummary ID="7" Kind="DiffPair" Name="FMC_LA07">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating DiffPair: &quot;FMC_LA07&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <GroupSummary ID="c" Name="Constraint Sets">
-      <ChangedObject Filter="0xc" Name="PhysicalCSets" ObjNumber="3" Ref="b"/>
+    <GroupSummary ID="10" Name="Constraint Sets">
+      <ChangedObject Filter="0xc" Name="PhysicalCSets" ObjNumber="3" Ref="f"/>
     </GroupSummary>
-    <GroupSummary ID="b" Name="PhysicalCSets">
-      <ChangedObject Attributes="1" Child="0" Filter="0x8" Membership="0" Name="DEFAULT" Notes="0" Other="0" Ref="4" Reference="0"/>
-      <ChangedObject Attributes="2" Child="0" Filter="0xc" Membership="0" Name="DIFFPAIR" Notes="0" Other="0" Ref="6" Reference="0"/>
-      <ChangedObject Attributes="1" Child="0" Filter="0x8" Membership="0" Name="PCS1" Notes="0" Other="0" Ref="5" Reference="0"/>
+    <GroupSummary ID="f" Name="PhysicalCSets">
+      <ChangedObject Attributes="1" Child="0" Filter="0x8" Membership="0" Name="DEFAULT" Notes="0" Other="0" Ref="8" Reference="0"/>
+      <ChangedObject Attributes="2" Child="0" Filter="0xc" Membership="0" Name="DIFFPAIR" Notes="0" Other="0" Ref="a" Reference="0"/>
+      <ChangedObject Attributes="1" Child="0" Filter="0x8" Membership="0" Name="PCS1" Notes="0" Other="0" Ref="9" Reference="0"/>
     </GroupSummary>
-    <ObjectSummary ID="4" Kind="PhysicalCSet" Name="DEFAULT">
+    <ObjectSummary ID="8" Kind="PhysicalCSet" Name="DEFAULT">
       <Attributes Filter="0x8" Type="Attributes">
         <Attribute Filter="0x8" Name="MAX_LINE_WIDTH" Status="" Taken="Dst" Type="Layers">
           <ValueGrp Type="GenericLayers">
@@ -217,7 +248,7 @@
         </Attribute>
       </Attributes>
     </ObjectSummary>
-    <ObjectSummary ID="6" Kind="PhysicalCSet" Name="DIFFPAIR">
+    <ObjectSummary ID="a" Kind="PhysicalCSet" Name="DIFFPAIR">
       <Attributes Filter="0xc" Type="Attributes">
         <Attribute Filter="0xc" Name="DIFFP_PRIMARY_GAP" Status="" Taken="Dst" Type="Layers">
           <ValueGrp Type="GenericLayers">
@@ -313,7 +344,7 @@
         </Attribute>
       </Attributes>
     </ObjectSummary>
-    <ObjectSummary ID="5" Kind="PhysicalCSet" Name="PCS1">
+    <ObjectSummary ID="9" Kind="PhysicalCSet" Name="PCS1">
       <Attributes Filter="0x8" Type="Attributes">
         <Attribute Filter="0x8" Name="MAX_LINE_WIDTH" Status="" Taken="Dst" Type="Layers">
           <ValueGrp Type="GenericLayers">
@@ -363,18 +394,18 @@
         </Attribute>
       </Attributes>
     </ObjectSummary>
-    <GroupSummary ID="d" Name="AssemblyBuckets">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Assembly Layers" Notes="0" Other="0" Ref="7" Reference="0" Status="Created"/>
+    <GroupSummary ID="11" Name="AssemblyBuckets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Assembly Layers" Notes="0" Other="0" Ref="b" Reference="0" Status="Created"/>
     </GroupSummary>
-    <ObjectSummary ID="7" Kind="AssemblyBucket" Name="Assembly Layers" Status="Created"/>
-    <GroupSummary ID="e" Name="DFTestBuckets">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Testing Layers" Notes="0" Other="0" Ref="8" Reference="0" Status="Created"/>
+    <ObjectSummary ID="b" Kind="AssemblyBucket" Name="Assembly Layers" Status="Created"/>
+    <GroupSummary ID="12" Name="DFTestBuckets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Testing Layers" Notes="0" Other="0" Ref="c" Reference="0" Status="Created"/>
     </GroupSummary>
-    <ObjectSummary ID="8" Kind="DFTestBucket" Name="Testing Layers" Status="Created"/>
+    <ObjectSummary ID="c" Kind="DFTestBucket" Name="Testing Layers" Status="Created"/>
   </Summaries>
 
   <Notes>
-    <Note Ref="3" Text="Not creating DiffPair: &quot;FMC_LA07&quot;. Preserving deletion. (DiffPair FMC_LA07)" Type="Warning"/>
+    <Note Ref="7" Text="Not creating DiffPair: &quot;FMC_LA07&quot;. Preserving deletion. (DiffPair FMC_LA07)" Type="Warning"/>
   </Notes>
 
   <Layers>

@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 21-Aug-2023 AT 16:03:31 }
+{ Packager-XL run on 24-Aug-2023 AT 17:50:48 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3825,45 +3825,6 @@ primitive 'RSMD0402_1/16W-4.7K,1%';
       PARENT_PPT_PART='RSMD0402_1/16W-4.7K,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0402_1/16W-51,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0402';
-      BODY_NAME='RSMD0402';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0402';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0402_51R_1%_0.063W_200PPM';
-      VALUE='51';
-      TOL='1%';
-      PWR='0.063W';
-      JEDEC_TYPE='C0402';
-      MANUFACTURER='GENERIC';
-      PARENT_PART_TYPE='RSMD0402_1/16W';
-      PARENT_PPT='RSMD0402';
-      PARENT_PPT_PART='RSMD0402_1/16W-51,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0402_1/16W-750,1%';
   pin
     'A'<0>:
@@ -3901,6 +3862,47 @@ primitive 'RSMD0402_1/16W-750,1%';
       PARENT_PART_TYPE='RSMD0402_1/16W';
       PARENT_PPT='RSMD0402';
       PARENT_PPT_PART='RSMD0402_1/16W-750,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_1/10W-1.2K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_1K2_1%_0.1W_100PPM';
+      VALUE='1.2k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.312.2';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-1.2K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-100,1%';
@@ -3942,47 +3944,6 @@ primitive 'RSMD0603_1/10W-100,1%';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-100,1%';
-  end_body;
-end_primitive;
-primitive 'RSMD0603_1/10W-200,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_200R_1%_0.1W_100PPM';
-      VALUE='200';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.220.5';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-200,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-33,1%';
@@ -4067,7 +4028,7 @@ primitive 'RSMD0603_1/10W-51,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-51,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-825,1%';
+primitive 'RSMD0603_1/10W-820,1%';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -4095,15 +4056,17 @@ primitive 'RSMD0603_1/10W-825,1%';
       CASE='0603';
       SMD='YES';
       STATUS='Preferred';
-      PART_NUMBER='R0603_825R_1%_0.1W_100PPM';
-      VALUE='825';
+      PART_NUMBER='R0603_820R_1%_0.1W_100PPM';
+      VALUE='820';
       TOL='1%';
       PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.282.2';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-825,1%';
+      PARENT_PPT_PART='RSMD0603_1/10W-820,1%';
   end_body;
 end_primitive;
 primitive 'SFP_CAGE-SP-74737-004';

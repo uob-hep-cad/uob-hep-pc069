@@ -1,37 +1,58 @@
 \t (00:00:07) allegro 17.4 S034 Linux SPB 64-bit Edition
-\t (00:00:07)     Journal start - Mon Aug 21 16:04:59 2023
-\t (00:00:07)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=27748 CPUs=20
-\t (00:00:07) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069b_toplevel.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr10509 -mpshost dilbert.phy.bris.ac.uk
+\t (00:00:07)     Journal start - Fri Aug 25 14:01:11 2023
+\t (00:00:07)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=2607 CPUs=20
+\t (00:00:07) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069b_toplevel.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr28914 -mpshost dilbert.phy.bris.ac.uk
 \t (00:00:07) 
    (00:00:07) Loading axlcore.cxt 
    (00:00:07) Searching for nsWare programs v2.62
    (00:00:07) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
    (00:00:07) 	NsWare programs must reside in this directory!
-\t (00:00:07) Opening existing design...
-\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc069b_toplevel_14"
-\d (00:00:07) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_14.brd
-\t (00:00:07) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
-\i (00:00:07) trapsize 6078
-\i (00:00:07) trapsize 6229
-\i (00:00:07) trapsize 6263
-\t (00:00:07) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
-\i (00:00:07) trapsize 6357
-\t (00:00:07) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
-\i (00:00:07) trapsize 10786
+\t (00:00:08) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc069b_toplevel_17"
+\d (00:00:08) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_17.brd
+\t (00:00:08) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:00:08) trapsize 9663
+\i (00:00:08) trapsize 9903
+\i (00:00:08) trapsize 9956
+\t (00:00:08) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:00:08) trapsize 10106
+\i (00:00:08) trapsize 13247
 \i (00:00:08) generaledit 
 \i (00:00:12) setwindow form.find
 \i (00:00:12) FORM find name_type 'Symbol (or Pin)' 
-\i (00:00:16) FORM find find_name r27 
-\i (00:00:16) setwindow pcb
-\i (00:00:16) trapsize 353
-\i (00:00:19) pick grid -33.9390 25.5337
-\t (00:00:19) last pick:  -33.9500 25.5500
-\i (00:00:22) cns show 
-\i (00:00:28) show element 
-\i (00:00:32) setwindow text
-\i (00:00:32) close
-\i (00:00:35) setwindow pcb
-\i (00:00:35) exit 
-\e (00:00:35) Do you want to save the changes you made to pc069b_toplevel_14.brd?
-\i (00:00:38) fillin yes 
-\t (00:00:38)     Journal end - Mon Aug 21 16:05:30 2023
+\i (00:00:14) FORM find find_name r12 
+\t (00:00:14) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:00:14) setwindow pcb
+\i (00:00:14) trapsize 1117
+\i (00:00:19) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:00:23) pick grid -20.0872 23.5493
+\t (00:00:23) last pick:  -20.1000 23.5500
+\i (00:00:27) show element 
+\i (00:00:27) generaledit 
+\i (00:00:39) setwindow text
+\i (00:00:39) close
+\i (00:00:55) setwindow form.find
+\i (00:00:55) FORM find find_name r4 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) trapsize 713
+\i (00:00:58) pick grid -20.1362 27.2178
+\t (00:00:58) last pick:  -20.1500 27.2000
+\i (00:01:00) show element 
+\i (00:01:00) generaledit 
+\i (00:01:04) setwindow text
+\i (00:01:04) close
+\i (00:01:12) setwindow form.find
+\i (00:01:12) FORM find find_name r45 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) trapsize 713
+\i (00:01:14) pick grid -18.0250 58.6046
+\t (00:01:14) last pick:  -18.0000 58.6000
+\i (00:01:16) show element 
+\i (00:01:16) generaledit 
+\i (00:01:20) setwindow text
+\i (00:01:20) close
+\i (00:01:41) setwindow pcb
+\i (00:01:41) exit 
+\e (00:01:41) Do you want to save the changes you made to pc069b_toplevel_17.brd?
+\i (00:01:44) fillin no 
+\t (00:01:44)     Journal end - Fri Aug 25 14:02:48 2023

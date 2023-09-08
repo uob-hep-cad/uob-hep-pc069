@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 21-Aug-2023 AT 16:03:31 }
+{ Packager-XL run on 24-Aug-2023 AT 17:50:48 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC069B_TOPLEVEL';
- POST_TIME='21-Aug-2023 AT 16:03:31';
+ POST_TIME='24-Aug-2023 AT 17:50:48';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2869,7 +2869,7 @@ SECTION_NUMBER 1
 b/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
- R4 'RSMD0603_1/10W-825,1%':;
+ R4 'RSMD0603_1/10W-820,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE3_I339@CNPASSIVE.RSMD0603(CHIPS)':
@@ -2895,10 +2895,10 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-825,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-820,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='825',
+ VALUE='820',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0603/chips/chips.prt';
 
@@ -3107,7 +3107,7 @@ chips)',
 b/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
- R12 'RSMD0603_1/10W-200,1%':;
+ R12 'RSMD0603_1/10W-1.2K,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE3_I340@CNPASSIVE.RSMD0603(CHIPS)':
@@ -3133,10 +3133,10 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-200,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-1.2K,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='200',
+ VALUE='1.2K',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0603/chips/chips.prt';
 
@@ -3725,7 +3725,7 @@ SECTION_NUMBER 1
 b/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
- R34 'RSMD0603_1/10W-825,1%':;
+ R34 'RSMD0603_1/10W-820,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE3_I348@CNPASSIVE.RSMD0603(CHIPS)':
@@ -3751,10 +3751,10 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-825,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-820,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='825',
+ VALUE='820',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0603/chips/chips.prt';
 
@@ -4070,7 +4070,7 @@ SECTION_NUMBER 1
 b/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
- R45 'RSMD0402_1/16W-51,1%':;
+ R45 'RSMD0402_1/16W-100,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE5_I325@CNPASSIVE.RSMD0402(CHIPS)':
@@ -4096,15 +4096,15 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/16W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-51,1%',
+ CDS_PART_NAME='RSMD0402_1/16W-100,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='51',
+ VALUE='100',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
- R46 'RSMD0402_1/16W-51,1%':;
+ R46 'RSMD0402_1/16W-100,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE5_I319@CNPASSIVE.RSMD0402(CHIPS)':
@@ -4130,10 +4130,10 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/16W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-51,1%',
+ CDS_PART_NAME='RSMD0402_1/16W-100,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='51',
+ VALUE='100',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0402/chips/chips.prt';
 
@@ -4308,7 +4308,7 @@ SECTION_NUMBER 1
 b/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
- R52 'RSMD0603_1/10W-200,1%':;
+ R52 'RSMD0603_1/10W-1.2K,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE3_I350@CNPASSIVE.RSMD0603(CHIPS)':
@@ -4334,15 +4334,15 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-200,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-1.2K,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='200',
+ VALUE='1.2K',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
- R53 'RSMD0603_1/10W-825,1%':;
+ R53 'RSMD0603_1/10W-820,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE3_I328@CNPASSIVE.RSMD0603(CHIPS)':
@@ -4368,15 +4368,15 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-825,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-820,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='825',
+ VALUE='820',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
- R54 'RSMD0603_1/10W-200,1%':;
+ R54 'RSMD0603_1/10W-1.2K,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE3_I327@CNPASSIVE.RSMD0603(CHIPS)':
@@ -4402,15 +4402,15 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-200,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-1.2K,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='200',
+ VALUE='1.2K',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
- R55 'RSMD0603_1/10W-825,1%':;
+ R55 'RSMD0603_1/10W-820,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE3_I343@CNPASSIVE.RSMD0603(CHIPS)':
@@ -4436,10 +4436,10 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-825,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-820,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='825',
+ VALUE='820',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0603/chips/chips.prt';
 
@@ -4478,7 +4478,7 @@ SECTION_NUMBER 1
 b/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
- R57 'RSMD0603_1/10W-200,1%':;
+ R57 'RSMD0603_1/10W-1.2K,1%':;
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC069_LIB.PC069B_TOPLEVEL(SCH_1):PAGE3_I344@CNPASSIVE.RSMD0603(CHIPS)':
@@ -4504,10 +4504,10 @@ SECTION_NUMBER 1
  VER='2',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-200,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-1.2K,1%',
  VOLTAGE='RVMAX',
  TOL='1%',
- VALUE='200',
+ VALUE='1.2K',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/rsmd0603/chips/chips.prt';
 

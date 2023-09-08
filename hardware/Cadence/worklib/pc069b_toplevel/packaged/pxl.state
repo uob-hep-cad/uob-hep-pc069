@@ -1,6 +1,6 @@
 FILE_TYPE = PXL_HDL_CENTRIC_STATE_FILE;
 VERSION = PXL_HDL_CENTRIC_VERSION_1;
-TIME = '21-Aug-2023 AT 16:03:33.00';
+TIME = '24-Aug-2023 AT 17:50:54.00';
 
 {--------------------------------------------------------------------------}
 
@@ -2780,9 +2780,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
- PART_NAME = 'RSMD0402_1/16W-51,1%';
+ PART_NAME = 'RSMD0402_1/16W-100,1%';
  PARENT_PPT = 'RSMD0402';
- PARENT_PPT_PART = 'RSMD0402_1/16W-51,1%';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-100,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
 END_LIB_INFO;
 END_PRIM;
@@ -2854,9 +2854,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
- PART_NAME = 'RSMD0402_1/16W-51,1%';
+ PART_NAME = 'RSMD0402_1/16W-100,1%';
  PARENT_PPT = 'RSMD0402';
- PARENT_PPT_PART = 'RSMD0402_1/16W-51,1%';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-100,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
 END_LIB_INFO;
 END_PRIM;
@@ -3165,9 +3165,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-200,1%';
+ PART_NAME = 'RSMD0603_1/10W-1.2K,1%';
  PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-200,1%';
+ PARENT_PPT_PART = 'RSMD0603_1/10W-1.2K,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
 END_LIB_INFO;
 END_PRIM;
@@ -3179,9 +3179,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-825,1%';
+ PART_NAME = 'RSMD0603_1/10W-820,1%';
  PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-825,1%';
+ PARENT_PPT_PART = 'RSMD0603_1/10W-820,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
 END_LIB_INFO;
 END_PRIM;
@@ -3277,9 +3277,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-825,1%';
+ PART_NAME = 'RSMD0603_1/10W-820,1%';
  PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-825,1%';
+ PARENT_PPT_PART = 'RSMD0603_1/10W-820,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
 END_LIB_INFO;
 END_PRIM;
@@ -3291,9 +3291,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-200,1%';
+ PART_NAME = 'RSMD0603_1/10W-1.2K,1%';
  PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-200,1%';
+ PARENT_PPT_PART = 'RSMD0603_1/10W-1.2K,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
 END_LIB_INFO;
 END_PRIM;
@@ -3305,9 +3305,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-825,1%';
+ PART_NAME = 'RSMD0603_1/10W-820,1%';
  PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-825,1%';
+ PARENT_PPT_PART = 'RSMD0603_1/10W-820,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
 END_LIB_INFO;
 END_PRIM;
@@ -3319,9 +3319,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-200,1%';
+ PART_NAME = 'RSMD0603_1/10W-1.2K,1%';
  PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-200,1%';
+ PARENT_PPT_PART = 'RSMD0603_1/10W-1.2K,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
 END_LIB_INFO;
 END_PRIM;
@@ -3347,9 +3347,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-825,1%';
+ PART_NAME = 'RSMD0603_1/10W-820,1%';
  PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-825,1%';
+ PARENT_PPT_PART = 'RSMD0603_1/10W-820,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
 END_LIB_INFO;
 END_PRIM;
@@ -3375,9 +3375,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-200,1%';
+ PART_NAME = 'RSMD0603_1/10W-1.2K,1%';
  PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-200,1%';
+ PARENT_PPT_PART = 'RSMD0603_1/10W-1.2K,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
 END_LIB_INFO;
 END_PRIM;

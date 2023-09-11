@@ -332,4 +332,14 @@
 		<property name="PACK_TYPE"  value="SMD"/>
 		<property name="VALUE"  value="BLM18AG102SN1"/>
 	</component>
+	<component cell="rsmd0603" library="cnpassive" partname="RSMD0603" partno="R0603_820R_1%_0.1W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/10W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="820"/>
+	</component>
+	<component cell="rsmd0603" library="cnpassive" partname="RSMD0603" partno="R0603_1K2_1%_0.1W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/10W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="1.2k"/>
+	</component>
 </sc:shoppingCart>

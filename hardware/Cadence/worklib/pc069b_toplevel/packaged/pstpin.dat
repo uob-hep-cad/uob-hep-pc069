@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 24-Aug-2023 AT 17:50:48 }
-TIME=' COMPILATION ON 24-Aug-2023 AT 17:50:48';
+{ Packager-XL run on 11-Sep-2023 AT 10:06:45 }
+TIME=' COMPILATION ON 11-Sep-2023 AT 10:06:45';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';

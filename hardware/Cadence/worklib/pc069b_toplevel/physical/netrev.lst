@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc069b_toplevel_16.brd                        )
+(    Drawing          : pc069b_toplevel_17.brd                        )
 (    Software Version : 17.4S034                                      )
-(    Date/Time        : Thu Aug 24 17:50:55 2023                      )
+(    Date/Time        : Mon Sep 11 10:06:51 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/packaged'
 Design Directory:            '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical'
-Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_16.brd'
-New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_17.brd'
+Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_17.brd'
+New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_18.brd'
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069b_toplevel.cpm -y 1 -x -z -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_16.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_17.brd -q /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069b_toplevel.cpm -y 1 -x -z -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_17.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/physical/pc069b_toplevel_18.brd -q /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/packaged/pstchip.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/packaged/pstchip.dat (00:00:00.45)
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/packaged/pstchip.dat (00:00:00.43)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/packaged/pstxprt.dat 
    Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/packaged/pstxprt.dat (00:00:00.00)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/packaged/pstxnet.dat 
@@ -41,16 +41,17 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardwar
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069b_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   /tmp/#Taaaaah20273.tmp
-	Start time: Thu Aug 24 17:50:55 2023
+	Allegro Baseline:   /tmp/#Taaaaah18756.tmp
+	Start time: Mon Sep 11 10:06:51 2023
 ===========================================================
 
 
 The constraint difference report file can be viewed using the following command:
 cdnFlowOOSMsg.exe -file file:///projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml
 
+NOTE: Constraint information is up-to-date. No processing was required.
 ===========================================================
-Finished Constraint Update	Time: Thu Aug 24 17:50:55 2023
+Finished Constraint Update	Time: Mon Sep 11 10:06:51 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -105,9 +106,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Aug 24 17:50:55 2023
+netrev run on Sep 11 10:06:51 2023
    DESIGN NAME : 'PC069B_TOPLEVEL'
-   PACKAGING ON 24-Aug-2023 AT 17:50:48
+   PACKAGING ON 11-Sep-2023 AT 10:06:45
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -138,5 +139,5 @@ netrev run on Aug 24 17:50:55 2023
  No warning detected
 
 cpu time      0:00:01
-elapsed time  0:00:01
+elapsed time  0:00:00
 

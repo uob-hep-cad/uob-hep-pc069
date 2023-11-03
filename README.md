@@ -11,7 +11,9 @@ Top level IPBus-Build (ipbb) dependency file for a design to act as a timing mas
 
 Ready-built FPGA configuration file at https://pdts-fw.web.cern.ch/pdts-fw/index.php?p=mr%2F62%2Fpipeline4546347%2Fpackage&view=master_nexys_video_a200_pc069a_mr62_sha-c4552a0f_runner-slu9p8x4-project-19909-concurrent-2_220927_1856.tgz
 
-Can use dtsbutler to control master design. See xxxxx
+Can use dtsbutler to control master design. 
+
+See https://github.com/DUNE-DAQ/timing/wiki/Dune-Timing-System-Page-1 
 
 ![PC010070(1).JPG](images/PC010070(1).JPG)
 ![PC010069(1).JPG](images/PC010069(1).JPG)

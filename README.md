@@ -24,6 +24,6 @@ See https://github.com/DUNE-DAQ/timing/wiki/Dune-Timing-System-Page-1
 ![PC010070(1).JPG](images/PC010070(1).JPG)
 *Bottom view of pc069a*
 
-![pc069a_on_pm3_IMG_20240729_135957526.JPG](images/pc069a_on_pm3_IMG_20240729_135957526.JPG)
+![pc069a_on_pm3_IMG_20240729_135957526.jpg](images/pc069a_on_pm3_IMG_20240729_135957526.jpg)
 *pc069a mounted on Enclustra PM3/AX3 FPGA board*
 

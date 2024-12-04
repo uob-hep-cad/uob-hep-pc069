@@ -1,0 +1,8 @@
+EMB stp/comp_+_top 0
+NEL stp/top 0
+NEL stp/l2_gnd 0
+NEL stp/l3_sign 0
+NEL stp/l4_sign 0
+NEL stp/l5_pwr 0
+NEL stp/bottom 0
+EMB stp/comp_+_bot 0

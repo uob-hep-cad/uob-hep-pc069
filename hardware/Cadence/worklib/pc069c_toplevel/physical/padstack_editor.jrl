@@ -1,0 +1,21 @@
+\t (00:00:00) padstack_editor 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Dec  3 18:30:20 2024
+\t (00:00:00)         Host=IT088130 User=phdgc Pid=7060 CPUs=16
+\t (00:00:00) CmdLine= padstack_editor -mpssession phdgc_ProjectMgr26641 -file C:/Users/phdgc/AppData/Local/Temp/#Taaaajt42052.tmp -pname P85 -data C:/Users/phdgc/AppData/Local/Temp/#Taaaajw42052.tmp
+\t (00:00:00) 
+\d (00:00:04) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Thermal Pad"
+\d (00:00:04) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Thermal Pad" 0 3
+\d (00:00:05) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Thermal Pad"
+\d (00:00:05) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Thermal Pad" 1 3
+\d (00:00:06) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Thermal Pad"
+\d (00:00:06) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Thermal Pad" 2 3
+\d (00:00:07) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 3 "Thermal Pad"
+\d (00:00:07) QtSignal GuidedDesignLayersTab LayersTable cellClicked 3 "Thermal Pad" 3 3
+\d (00:00:08) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 4 "Thermal Pad"
+\d (00:00:08) QtSignal GuidedDesignLayersTab LayersTable cellClicked 4 "Thermal Pad" 4 3
+\d (00:00:09) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 5 "Thermal Pad"
+\d (00:00:09) QtSignal GuidedDesignLayersTab LayersTable cellClicked 5 "Thermal Pad" 5 3
+\d (00:00:09) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 6 "Thermal Pad"
+\d (00:00:09) QtSignal GuidedDesignLayersTab LayersTable cellClicked 6 "Thermal Pad" 6 3
+\d (00:00:21) QtSignal MainWindow Exit triggered
+\t (00:00:21)     Journal end - Tue Dec  3 18:30:41 2024

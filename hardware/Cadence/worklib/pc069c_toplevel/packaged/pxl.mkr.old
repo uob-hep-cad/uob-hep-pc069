@@ -1,0 +1,64 @@
+(marker_file
+ (version 5.0)
+ (markers
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package R42.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package R42.
+        Schematic instance: @UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I280@CNPASSIVE.RSMD0402(CHIPS) (MODULE: PC069C_TOPLEVEL; PART: RSMD0402)
+        Physical Path: @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i280@cnpassive.rsmd0402(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+ This error occurs if you try to package an invalid instance or an instance that does not exist into a package. Error 1109 can also occur if an instance has a user-defined reference designator (Hard Location property) defined in a block and that block is instantiated multiple times but is not reused in the design. Change the reference designator value or reduce the value of the SIZE property defined. 
+			Note: In case of a block instantiated multiple times, change the reference designator value.
+       Section 1 is assigned @UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I317@CNPASSIVE.RSMD0402(CHIPS) (MODULE: PC069C_TOPLEVEL; PART: RSMD0402)
+")
+   (location
+	(
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I280;")
+     (parent_canonical_name "DRAWERROR inst I280")
+     (drawing_name "@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2")
+    )
+   	(
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I317;")
+     (parent_canonical_name "DRAWERROR inst I317")
+     (drawing_name "@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I280@CNPASSIVE.RSMD0402(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I280@CNPASSIVE.RSMD0402(CHIPS) is not packaged.
+       
+	Details: This error message appears with other error messages, which indicate why the primitive instance was not packaged. To fix this error, you need to fix the other errors (ERROR 1131 and ERROR 1137 ) in the Packager-XL run. This error occurs because two pin numbers were swapped across two different pin groups, and one pin was not found in the physical part.
+")
+   (location
+	(
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I280;")
+     (parent_canonical_name "DRAWERROR inst I280")
+     (drawing_name "@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 100)
+   (short_msg "ERROR(SPCODD-100): State file not written for design PC069C_TOPLEVEL.")
+   (long_msg "ERROR(SPCODD-100): State file not written for design PC069C_TOPLEVEL.
+       
+	Details: This error message appears with other error messages, which indicate why the state file was not written. To fix this error, you need to fix the other errors in the Packager-XL run.
+")
+  )
+ )
+)

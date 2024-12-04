@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : pc069b_toplevel_15.brd                        )
+(    Software Version : 17.4S033                                      )
+(    Date/Time        : Tue Aug 22 14:23:10 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 8
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (-21.0004 25.0958)  Net: CVCC
+	Point on shape: (-24.0004 25.0958)  Net: CVCC
+	Point on shape: (-61.0000 5.0000)  Net: GND
+	Point on shape: (7.0000 2.0000)  Net: GND
+	Point on shape: (-61.0000 59.0000)  Net: GND
+
+    Layer = BOTTOM
+	Point on shape: (7.0000 2.0000)  Net: GND
+	Point on shape: (-61.0000 5.0000)  Net: GND
+	Point on shape: (-61.0000 59.0000)  Net: GND

@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 23.1 P001 (4147275) 9/30/2023 on Tue Dec  3 15:34:45 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024 on Tue Jan 28 13:45:24 2025
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -218,6 +218,30 @@
 #ISCELL
   cnpower gnd *
   page11_i339
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i341
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i342
+#ISCELL
+  cnpower gnd *
+  page11_i343
+#CELL
+  cnlinear ld3985 *
+  page11_i344
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i345
+#ISCELL
+  cnpower p3v3 *
+  page11_i346
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i347
+#ISCELL
+  cnpower advcc *
+  page11_i348
 #ISCELL
   cnpower gnd *
   page11_i42
@@ -840,9 +864,6 @@
   cnpower gnd *
   page4_i170
 #CELL
-  cndiscrete ferrite *
-  page4_i171
-#CELL
   cnpassive tp *
   page4_i172
 #CELL
@@ -854,6 +875,21 @@
 #ISCELL
   cnpower avdd *
   page4_i175
+#CELL
+  cnlinear ld3985 *
+  page4_i176
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i177
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i178
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i179
+#ISCELL
+  cnpower p3v3 *
+  page4_i180
 #CELL
   cnpassive rsmd0402 *
   page4_i26
@@ -899,9 +935,6 @@
 #CELL
   cnpassive capcersmdcl2 *
   page4_i59
-#ISCELL
-  cnpower cvcc *
-  page4_i6
 #ISCELL
   cnpower gnd *
   page4_i8

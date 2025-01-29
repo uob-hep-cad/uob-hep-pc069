@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 03-Dec-2024 AT 15:35:00 }
+{ Packager-XL run on 29-Jan-2025 AT 15:39:12 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -235,7 +235,7 @@ primitive 'CAPCERSMDCL2_0402-100NF,16V_GEN';
       PARENT_PPT_PART='CAPCERSMDCL2_0402-100NF,16V_GEN';
   end_body;
 end_primitive;
-primitive 'CAPCERSMDCL2_0603-100NF,16V';
+primitive 'CAPCERSMDCL2_0805-10UF,16V_GEN';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -263,97 +263,10 @@ primitive 'CAPCERSMDCL2_0603-100NF,16V';
       PHYS_DES_PREFIX='C';
       CLASS='DISCRETE';
       STATUS='Preferred';
-      PART_NUMBER='CC0603_100NF_16V_10%_X7R';
-      MANUFACTURER='GENERIC';
-      DESCRIPTION='SMD X7R Ceramic Capacitor';
-      DATASHEET_URL='';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      VALUE='100nF';
-      VOLT='16V';
-      TOL='10%';
-      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
-      PARENT_PPT='CAPCERSMDCL2';
-      PARENT_PPT_PART='CAPCERSMDCL2_0603-100NF,16V';
-  end_body;
-end_primitive;
-primitive 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL2';
-      BODY_NAME='CAPCERSMDCL2';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Preferred';
-      PART_NUMBER='CC0603_10UF_6V3_10%_X5R';
+      PART_NUMBER='CC0805_10UF_16V_10%_X5R';
       MANUFACTURER='GENERIC';
       DESCRIPTION='SMD X5R Ceramic Capacitor';
       DATASHEET_URL='';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      VALUE='10uF';
-      VOLT='6.3V';
-      TOL='10%';
-      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
-      PARENT_PPT='CAPCERSMDCL2';
-      PARENT_PPT_PART='CAPCERSMDCL2_0603-10UF_X5R,6.3V';
-  end_body;
-end_primitive;
-primitive 'CAPCERSMDCL2_0805-10UF,16V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL2';
-      BODY_NAME='CAPCERSMDCL2';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Not Preferred';
-      PART_NUMBER='C0805C106K4PAC';
-      MANUFACTURER='KEMET';
-      DESCRIPTION='SMD X5R Ceramic Capacitor';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/C0805C106K4PA~
-C.pdf';
       SMD='YES';
       CASE='0805';
       JEDEC_TYPE='C0805';
@@ -362,7 +275,7 @@ C.pdf';
       TOL='10%';
       PARENT_PART_TYPE='CAPCERSMDCL2_0805';
       PARENT_PPT='CAPCERSMDCL2';
-      PARENT_PPT_PART='CAPCERSMDCL2_0805-10UF,16V';
+      PARENT_PPT_PART='CAPCERSMDCL2_0805-10UF,16V_GEN';
   end_body;
 end_primitive;
 primitive 'CON20P_SFP-1888247-1';
@@ -3070,46 +2983,6 @@ primitive 'ELCAPTAN_SMD-22UF,10V';
       PARENT_PPT_PART='ELCAPTAN_SMD-22UF,10V';
   end_body;
 end_primitive;
-primitive 'FERRITE_SMD-BLM18AG102SN1,MURAA';
-  pin
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      CLASS='DISCRETE';
-      PART_NAME='FERRITE';
-      BODY_NAME='FERRITE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='TRUE';
-      PHYS_DES_PREFIX='L';
-      STATUS='Preferred';
-      PART_NUMBER='BLM18AG102SN1';
-      MANUFACTURER='MURATA';
-      DESCRIPTION='400mA 1Kohm SMD Chip Ferrite Bead';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/ind_murata_BL~
-M18A_series.pdf';
-      PINCOUNT='2';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      PARENT_PART_TYPE='FERRITE_SMD';
-      PARENT_PPT='FERRITE';
-      PARENT_PPT_PART='FERRITE_SMD-BLM18AG102SN1,MURATA';
-  end_body;
-end_primitive;
 primitive 'INDUCTANCE_LQH32C_23-4.7UH';
   pin
     'B'<0>:
@@ -3144,6 +3017,58 @@ h32c.pdf';
       PARENT_PART_TYPE='INDUCTANCE';
       PARENT_PPT='INDUCTANCE';
       PARENT_PPT_PART='INDUCTANCE_LQH32C_23-4.7UH';
+  end_body;
+end_primitive;
+primitive 'LD3985M25R';
+  pin
+    'VI':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+    'VINH':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='INPUT';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'BYPASS':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'VO':
+      PIN_NUMBER='(5)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+  end_pin;
+  body
+      CLASS='IC';
+      PART_NAME='LD3985';
+      BODY_NAME='LD3985';
+      PHYS_DES_PREFIX='RG';
+      STATUS='Preferred';
+      PART_NUMBER='LD3985M25R';
+      MANUFACTURER='ST MICROELECTRONICS';
+      DESCRIPTION='2.5V Ultra Low Drop and Low Noise BiCMOS Voltage Regulator';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/ld3985.pdf';
+      PINCOUNT='5';
+      SMD='YES';
+      CASE='SOT23-5';
+      JEDEC_TYPE='SOT95P280X145-5N';
+      PARENT_PART_TYPE='LD3985_SOT23';
+      PARENT_PPT='LD3985';
+      PARENT_PPT_PART='LD3985M25R';
   end_body;
 end_primitive;
 primitive 'LGL29K-G2J1-24';
@@ -3730,8 +3655,6 @@ primitive 'RSMD0603_1/10W-1.2K,1%';
       PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.312.2';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-1.2K,1%';
@@ -3771,8 +3694,6 @@ primitive 'RSMD0603_1/10W-100,1%';
       PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.200.9';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-100,1%';
@@ -3812,8 +3733,6 @@ primitive 'RSMD0603_1/10W-33,1%';
       PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.133.3';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-33,1%';
@@ -3853,8 +3772,6 @@ primitive 'RSMD0603_1/10W-51,1%';
       PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.151.5';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-51,1%';
@@ -3894,8 +3811,6 @@ primitive 'RSMD0603_1/10W-820,1%';
       PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.282.2';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-820,1%';
@@ -4399,7 +4314,7 @@ pdf';
       PARENT_PPT_PART='SN74LVC2GU04DCK';
   end_body;
 end_primitive;
-primitive 'SY58608UMG-VCC=CVCC';
+primitive 'SY58608UMG-VCC=ADVCC';
   pin
     'VREF-AC':
       PIN_NUMBER='(3)';
@@ -4450,7 +4365,7 @@ nation and Fail Safe Input';
       SMD='YES';
       CASE='QFN16';
       JEDEC_TYPE='QFN50P300X300X90-17N-S160';
-      POWER_PINS='(CVCC:5,8,13,16;GND:6,7,14,15,17)';
+      POWER_PINS='(ADVCC:5,8,13,16;GND:6,7,14,15,17)';
       PARENT_PART_TYPE='SY58608U_QFN';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='SY58608U';

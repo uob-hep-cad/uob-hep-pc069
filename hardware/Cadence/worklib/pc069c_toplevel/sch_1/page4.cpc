@@ -176,9 +176,6 @@
   cnpower gnd *
   page4_i170
 #CELL
-  cndiscrete ferrite *
-  page4_i171
-#CELL
   cnpassive tp *
   page4_i172
 #CELL
@@ -190,6 +187,21 @@
 #ISCELL
   cnpower avdd *
   page4_i175
+#CELL
+  cnlinear ld3985 *
+  page4_i176
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i177
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i178
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i179
+#ISCELL
+  cnpower p3v3 *
+  page4_i180
 #CELL
   cnpassive rsmd0402 *
   page4_i26
@@ -235,9 +247,6 @@
 #CELL
   cnpassive capcersmdcl2 *
   page4_i59
-#ISCELL
-  cnpower cvcc *
-  page4_i6
 #ISCELL
   cnpower gnd *
   page4_i8

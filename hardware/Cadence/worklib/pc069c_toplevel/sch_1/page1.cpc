@@ -217,6 +217,30 @@
 #ISCELL
   cnpower gnd *
   page11_i339
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i341
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i342
+#ISCELL
+  cnpower gnd *
+  page11_i343
+#CELL
+  cnlinear ld3985 *
+  page11_i344
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i345
+#ISCELL
+  cnpower p3v3 *
+  page11_i346
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i347
+#ISCELL
+  cnpower advcc *
+  page11_i348
 #ISCELL
   cnpower gnd *
   page11_i42

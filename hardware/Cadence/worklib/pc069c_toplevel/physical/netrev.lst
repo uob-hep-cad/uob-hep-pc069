@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc069b_toplevel_18.brd                        )
-(    Software Version : 23.1P001                                      )
-(    Date/Time        : Tue Dec  3 15:35:25 2024                      )
+(    Drawing          : pc069c_toplevel_20.brd                        )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Wed Jan 29 15:43:25 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\worklib\pc069c_toplevel\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/physical/pc069b_toplevel_18.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_19.brd'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_20.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_21.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\pc069c_toplevel.cpm -y 1 -x -z -O C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\worklib\pc069c_toplevel\physical\pc069b_toplevel_18.brd C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\worklib\pc069c_toplevel\physical\pc069c_toplevel_19.brd -q C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\pc069c_toplevel.cpm -y 1 -x -z -O C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\worklib\pc069c_toplevel\physical\pc069c_toplevel_20.brd C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\worklib\pc069c_toplevel\physical\pc069c_toplevel_21.brd -q C:\Users\phdgc\Downloads\uob-hep-pc069\hardware\Cadence\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/packaged/pstchip.dat (00:00:00.33)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/packaged/pstchip.dat (00:00:00.37)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/packaged/pstxprt.dat 
    Finished reading C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/packaged/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/packaged/pstxnet.dat 
@@ -41,8 +41,8 @@ Starting to read C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/worklib/pc069c_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaaj17268.tmp
-	Start time: Tue Dec  3 15:35:25 2024
+	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaaj40804.tmp
+	Start time: Wed Jan 29 15:43:25 2025
 ===========================================================
 
 
@@ -50,50 +50,44 @@ The constraint difference report file can be viewed using the following command:
 cdnFlowOOSMsg.exe -file file:///C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml
 
 ===========================================================
-Finished Constraint Update	Time: Tue Dec  3 15:35:25 2024
+Finished Constraint Update	Time: Wed Jan 29 15:43:25 2025
 ===========================================================
 
 ------ Library Paths ------
 MODULEPATH =  . 
            c:/cadence/spb_23.1/share/local/pcb/modules 
+           ../../aidainnova_dut_interface/physical 
+           ../../fmc_tlu_threshold_discriminator_dual/physical 
+           ../../fmc_tlu_clock_gen/physical 
+           ../../aidainnova_tlu_pwr_supplies/physical 
+           C:/Users/phdgc/Downloads/aidainnova_tlu-hw/hardware/Cadence/aidainnova_tlu_baseboard_v1a/worklib/fmc_tlu_threshold_discriminator_dual/physical 
 
 PSMPATH =  . 
            F:/cad/bris_cdslib/lib_psd14.x/symbols 
            F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
            F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/passif 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/rel 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/sw 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/pwr 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
-           Z:/cad/bris_cdslib/lib_psd14.x/symbols 
-           Z:/cad/bris_cdslib/lib_psd14.x/formats 
+           z:/cad/bris_cdslib/lib_psd14.x/symbols 
+           z:/cad/bris_cdslib/lib_psd14.x/formats 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/passif 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/rel 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/sw 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/pwr 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
            Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
            Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
            Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
-           C:/SPB_Data/cis_hep_partslib/Allegro_Library/symbols 
-           C:/Users/phdgc/AppData/Roaming/SPB_Data/downloaded_parts/allegropcb 
+           z:/cad/ral_cdslib/lib_psd15.x/symbols 
 
 PADPATH =  . 
            symbols 
@@ -102,13 +96,13 @@ PADPATH =  .
            /software/CAD/Cadence/SPB17.40.034/share/local/pcb/padstacks 
            /software/CAD/Cadence/SPB17.40.034/share/pcb/pcb_lib/symbols 
            /software/CAD/Cadence/SPB17.40.034/share/pcb/allegrolib/symbols 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+           z:/cad/bris_cdslib/lib_psd14.x/pads 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           z:/cad/ral_cdslib/lib_psd15.x/pads 
            ./symbols 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
            ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/pads/ 
            F:/cad/bris_cdslib/lib_psd14.x/pads 
            F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
@@ -128,9 +122,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Dec 3 15:35:24 2024
+netrev run on Jan 29 15:43:24 2025
    DESIGN NAME : 'PC069C_TOPLEVEL'
-   PACKAGING ON 03-Dec-2024 AT 15:35:00
+   PACKAGING ON 29-Jan-2025 AT 15:39:12
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -160,6 +154,6 @@ netrev run on Dec 3 15:35:24 2024
  No oversight detected
  No warning detected
 
-cpu time      0:03:29
+cpu time      0:11:51
 elapsed time  0:00:01
 

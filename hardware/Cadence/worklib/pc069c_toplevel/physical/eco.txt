@@ -2,96 +2,237 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_20.brd       |
-|                                                    Wed Jan 29 15:43:25 2025  |
+|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_23.brd       |
+|                                                    Tue Feb  4 17:22:43 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  P3V3         pins MOVED FROM this net (to net name listed on right)
-                                 C70.2           -30.620 22.8500
-                                                                          ADVCC
-                                 C71.2           -10.181 22.1318
-                                                                          ADVCC
-                                 C72.2           -50.731 18.9682
-                                                                          ADVCC
+  CLK_SDA      pins MOVED FROM this net (to net name listed on right)
+                                 R40.2                          
+                                                                           CVCC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CVCC         pins MOVED FROM this net (to net name listed on right)
+                                 C18.2           -6.7000 11.3500
+                                                      UNNAMED_2_RSMD0402_I222_B
+                                 C42.2           -34.050 15.3000
+                                                      UNNAMED_2_RSMD0402_I314_B
+                                 IC2.8           -7.4950 12.3500
+                                                      UNNAMED_2_RSMD0402_I222_B
+                                 IC11.5          -37.870 17.5500
+                                                      UNNAMED_2_RSMD0402_I314_B
+                                 R39.2           -11.200 11.3500
+                                                      UNNAMED_2_RSMD0402_I222_B
+                                 R61.2           -37.120 15.9000
+                                                      UNNAMED_2_RSMD0402_I314_B
+                                 R103.2          -10.000 11.3500
+                                                      UNNAMED_2_RSMD0402_I222_B
+                                 R138.2          -8.8000  6.5500
+                                                      UNNAMED_2_RSMD0402_I222_B
+                                 R1328.2         -7.4000  6.5500
+                                                      UNNAMED_2_RSMD0402_I222_B
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 R9.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_GA0      pins MOVED FROM this net (to net name listed on right)
+                                 IC2.2           -8.7650  7.0500
+                                                   UNNAMED_2_24AA025E48_I228_A1
+                                 R138.1          -8.8000  7.4500
+                                                   UNNAMED_2_24AA025E48_I228_A1
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 R33.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_GA1      pins MOVED FROM this net (to net name listed on right)
+                                 IC2.1           -7.4950  7.0500
+                                                   UNNAMED_2_24AA025E48_I228_A0
+                                 R1328.1         -7.4000  7.4500
+                                                   UNNAMED_2_24AA025E48_I228_A0
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 R32.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_20.brd       |
-|                                                    Wed Jan 29 15:43:25 2025  |
+|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_23.brd       |
+|                                                    Tue Feb  4 17:22:43 2025  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C35                 CAPCERSMDCL2_0805-10UF,16V_GEN -51.000 35.3000 CAPCERSMDCL2_0805-10UF,16V
- C42                 CAPCERSMDCL2_0402-100NF,16V_GEN -33.600 15.3000 CAPCERSMDCL2_0603-100NF,16V
- C64                 CAPCERSMDCL2_0805-10UF,16V_GEN -26.416 47.6250 CAPCERSMDCL2_0603-10UF_X5R,6.3V
+  P3V3         pins ADDED TO this existing net (pins not previously on any net)
+                                 R15.2                          
+                                 R44.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_24AA025E48_I228_A0 pins ADDED TO this new net
+                                 R32.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_24AA025E48_I228_A1 pins ADDED TO this new net
+                                 R33.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_RSMD0402_I222_B pins ADDED TO this new net
+                                 R9.1                           
+                                 R44.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_RSMD0402_I314_B pins ADDED TO this new net
+                                 R15.1                          
+                                 R40.1                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_20.brd       |
-|                                                    Wed Jan 29 15:43:25 2025  |
+|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_23.brd       |
+|                                                    Tue Feb  4 17:22:43 2025  |
 |------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES deleted from design                                     |
+| COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
+|    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C35            -51.000 35.3000 HARD_LOCATION  
+ R9                  RSMD0402_0.0625W-XX,1% 
+ R15                 RSMD0402_1/16W-0R0,1% 
+ R32                 RSMD0402_0.0625W-XX,1% 
+ R33                 RSMD0402_0.0625W-XX,1% 
+ R40                 RSMD0402_0.0625W-XX,1% 
+ R44                 RSMD0402_1/16W-0R0,1% 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_20.brd       |
-|                                                    Wed Jan 29 15:43:25 2025  |
+|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_23.brd       |
+|                                                    Tue Feb  4 17:22:43 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C35.2          -51.000 35.3000 PHYS_PAGE      1
- C35.2          -51.000 35.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C35.2          -51.000 35.3000 P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page1_i154@cnpassive.capcersmdcl2(chips)
- C35.2          -51.000 35.3000 SIZE           1
- C35.2          -51.000 35.3000 XY             (2860,2560)
- C42.2          -33.600 15.3000 PHYS_PAGE      2
- C42.2          -33.600 15.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C42.2          -33.600 15.3000 P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i315@cnpassive.capcersmdcl2(chips)
- C42.2          -33.600 15.3000 SIZE           1
- C42.2          -33.600 15.3000 XY             (790,1620)
- C64.2          -26.416 47.6250 PHYS_PAGE      1
- C64.2          -26.416 47.6250 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C64.2          -26.416 47.6250 P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page1_i238@cnpassive.capcersmdcl2(chips)
- C64.2          -26.416 47.6250 SIZE           1
- C64.2          -26.416 47.6250 XY             (-2220,4140)
- C70.2          -31.070 22.8500 XY             (160,3430)
- C71.2          -10.500 22.4500 XY             (450,3430)
- C72.2          -51.050 18.6500 XY             (740,3430)
+ C18.2          -6.7000 11.8000 XY             (3560,1670)
+ IC2.4          -9.4000  9.7000 XY             (2650,1590)
+ R9.2                           DIST           FLAT
+ R9.2                           MAX_TEMP       RTMAX
+ R9.2                           NEGTOL         RTOL%
+ R9.2                           PHYS_PAGE      2
+ R9.2                           POSTOL         RTOL%
+ R9.2                           PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R9.2                           P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i325@cnpassive.rsmd0402(chips)
+ R9.2                           SIZE           1
+ R9.2                           SLOPE          RSMAX
+ R9.2                           TC1            RTMPL
+ R9.2                           TC2            RTMPQ
+ R9.2                           TOL_ON_OFF     ON
+ R9.2                           XY             (2560,2260)
+ R15.2                          DIST           FLAT
+ R15.2                          MAX_TEMP       RTMAX
+ R15.2                          NEGTOL         RTOL%
+ R15.2                          PHYS_PAGE      2
+ R15.2                          POSTOL         RTOL%
+ R15.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R15.2                          P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i321@cnpassive.rsmd0402(chips)
+ R15.2                          SIZE           1
+ R15.2                          SLOPE          RSMAX
+ R15.2                          TC1            RTMPL
+ R15.2                          TC2            RTMPQ
+ R15.2                          TOL_ON_OFF     ON
+ R15.2                          XY             (410,2260)
+ R32.2                          DIST           FLAT
+ R32.2                          MAX_TEMP       RTMAX
+ R32.2                          NEGTOL         RTOL%
+ R32.2                          PHYS_PAGE      2
+ R32.2                          POSTOL         RTOL%
+ R32.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R32.2                          P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i326@cnpassive.rsmd0402(chips)
+ R32.2                          SIZE           1
+ R32.2                          SLOPE          RSMAX
+ R32.2                          TC1            RTMPL
+ R32.2                          TC2            RTMPQ
+ R32.2                          TOL_ON_OFF     ON
+ R32.2                          XY             (1680,1740)
+ R33.2                          DIST           FLAT
+ R33.2                          MAX_TEMP       RTMAX
+ R33.2                          NEGTOL         RTOL%
+ R33.2                          PHYS_PAGE      2
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_20.brd       |
-|                                                    Wed Jan 29 15:43:25 2025  |
+|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_23.brd       |
+|                                                    Tue Feb  4 17:22:43 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R33.2                          POSTOL         RTOL%
+ R33.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R33.2                          P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i327@cnpassive.rsmd0402(chips)
+ R33.2                          SIZE           1
+ R33.2                          SLOPE          RSMAX
+ R33.2                          TC1            RTMPL
+ R33.2                          TC2            RTMPQ
+ R33.2                          TOL_ON_OFF     ON
+ R33.2                          XY             (1980,1690)
+ R39.2          -11.200 11.8000 XY             (3220,1910)
+ R40.2                          DIST           FLAT
+ R40.2                          MAX_TEMP       RTMAX
+ R40.2                          NEGTOL         RTOL%
+ R40.2                          PHYS_PAGE      2
+ R40.2                          POSTOL         RTOL%
+ R40.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R40.2                          P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i320@cnpassive.rsmd0402(chips)
+ R40.2                          SIZE           1
+ R40.2                          SLOPE          RSMAX
+ R40.2                          TC1            RTMPL
+ R40.2                          TC2            RTMPQ
+ R40.2                          TOL_ON_OFF     ON
+ R40.2                          XY             (150,2260)
+ R44.2                          DIST           FLAT
+ R44.2                          MAX_TEMP       RTMAX
+ R44.2                          NEGTOL         RTOL%
+ R44.2                          PHYS_PAGE      2
+ R44.2                          POSTOL         RTOL%
+ R44.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R44.2                          P_PATH         @uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i323@cnpassive.rsmd0402(chips)
+ R44.2                          SIZE           1
+ R44.2                          SLOPE          RSMAX
+ R44.2                          TC1            RTMPL
+ R44.2                          TC2            RTMPQ
+ R44.2                          TOL_ON_OFF     ON
+ R44.2                          XY             (2820,2260)
+ R103.2         -10.000 11.8000 XY             (1160,1740)
+ R138.2         -8.8000  7.0000 XY             (2180,1900)
+ R1328.2        -7.4000  7.0000 XY             (2340,1900)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../Cadence/worklib/pc069c_toplevel/physical/pc069c_toplevel_23.brd       |
+|                                                    Tue Feb  4 17:22:43 2025  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C42.1          -33.150 15.3000 CDS_PINID      A(0)
- C42.2          -34.050 15.3000 CDS_PINID      B(0)
- C64.1          -25.516 47.6250 CDS_PINID      A(0)
- C64.2          -27.316 47.6250 CDS_PINID      B(0)
+ R9.1                           CDS_PINID      A(0)
+ R9.2                           CDS_PINID      B(0)
+ R15.1                          CDS_PINID      A(0)
+ R15.2                          CDS_PINID      B(0)
+ R32.1                          CDS_PINID      A(0)
+ R32.2                          CDS_PINID      B(0)
+ R33.1                          CDS_PINID      A(0)
+ R33.2                          CDS_PINID      B(0)
+ R40.1                          CDS_PINID      A(0)
+ R40.2                          CDS_PINID      B(0)
+ R44.1                          CDS_PINID      A(0)
+ R44.2                          CDS_PINID      B(0)
 |------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
-|       Components changed    :       3                                        |
-|       Comp property deleted :       1                                        |
-|       Pin property added    :       4                                        |
-|       Slot property added   :      18                                        |
+|       Nets changed          :      25                                        |
+|       Components added      :       6                                        |
+|       Pin property added    :      12                                        |
+|       Slot property added   :      84                                        |
 |                                                                              |
-|   Total ECO changes reported:      29                                        |
+|   Total ECO changes reported:     127                                        |
 |------------------------------------------------------------------------------|

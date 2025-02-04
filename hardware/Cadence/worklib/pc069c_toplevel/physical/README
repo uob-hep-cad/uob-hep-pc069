@@ -2,8 +2,8 @@
 
 pc069
 
-Version = B
-Subversion = 16
+Version = C
+Subversion = 23
 
 This file describes PCB fabrication details for a "refeence hardware" FMC
 to allow evaluation of the DUNE timing system
@@ -14,7 +14,7 @@ contact:	David.Cussans@bristol.ac.uk
 		fax: 0117 925 5624
 
 
-Files produced by Cadence Allegro PE17.4
+Files produced by Cadence Allegro 24.1
 
 Artwork:
 --------
@@ -27,62 +27,63 @@ Build:
 
 Six Layers as follows:
 
-art_L1_TOP_pc069b.art
-art_L2_GND_pc069b.art
-art_L3_SIGN_pc069b.art
-art_L4_SIGN_pc069b.art
-art_L5_PWR_pc069b.art
-art_L6_BOTpc069b.art
+art_L1_TOP_pc069c.art
+art_L2_GND_pc069c.art
+art_L3_SIGN_pc069c.art
+art_L4_SIGN_pc069c.art
+art_L5_PWR_pc069c.art
+art_L6_BOTpc069c.art
 
 
 Solder Masks
 ------------
 
-art_SOLDERMASK_TOP_pc069b.art
-art_SOLDERMASK_BOTTOM_pc069b.art
+art_SOLDERMASK_TOP_pc069c.art
+art_SOLDERMASK_BOTTOM_pc069c.art
 
 Solderpaste mask
 -----------------
 
-art_PASTEMASK_TOP_pc069b.art
-art_PASTEMASK_BOTTOM_pc069b.art
+art_PASTEMASK_TOP_pc069c.art
+art_PASTEMASK_BOTTOM_pc069c.art
 
 Silk screen
 -----------
 
-art_SILK_TOP_pc069b.art
-art_SILK_BOTTOM_pc069b.art
+art_SILK_TOP_pc069c.art
+art_SILK_BOTTOM_pc069c.art
 
 
 Board outline: (Gerber RS-274X)
 -------------------------------
 
-art_OUTLINE_pc069b.art
+art_OUTLINE_pc069c.art
 
 Drill figure: ( illustration of hole sizes and position )
 -------------
 
-art_DRILL-1-6_pc069b.art
+art_DRILL-1-6_pc069c.art
 
 Drill information ( Excellon format, described in nc_param.txt )
 ----------------------------------------------------------------
 
-pc069b-1-6.drl
+pc069c-1-6.drl
 
 
-Bill of Materials (including component placement information)
+Bill of Materials 
 -----------------
 
-pc069b_bom.xlsx
+pc069c_summary_bom.xlsx
 
 Component placement
 -------------------
 
-Placement information in ODB++ format: pc069b_toplevel_16.tgz
+Placement information in ODB++ format: pc069c_toplevel_23.tgz
 
-In text format: placement_body_centre.txt 
-Position of the component body centre in mm and rotation in degrees of each component.
+In text format: 
 
+placement_body_centre.txt  : Position of the component body centre in mm and rotation in degrees of each component.
+placement_pin1.txt
 
 Fiducial Marks
 --------------

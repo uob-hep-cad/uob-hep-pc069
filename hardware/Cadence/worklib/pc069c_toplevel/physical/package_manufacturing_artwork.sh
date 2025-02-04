@@ -19,9 +19,9 @@ echo Copying files to directory
 echo NB Make sure that the README file is correct.
 #
 # copy the artwork and drill files
-cp *pc069b.art $SUBDIR
+cp *pc069c.art $SUBDIR
 #cp *.ger $SUBDIR
-cp pc069b*.drl $SUBDIR
+cp pc069c*.drl $SUBDIR
 #cp *.rou $SUBDIR
 cp nc_tools_auto.txt $SUBDIR
 cp nc_param.txt $SUBDIR

@@ -1,4 +1,4 @@
-{ Packager-XL run on 29-Jan-2025 AT 15:39:12 }
+{ Packager-XL run on 04-Feb-2025 AT 17:22:10 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2";
 BODY = "CON400P_40ABCDEFGHJK","I126": #LOCATION = "P1" !CDS_LOCATION = "P1" #SEC = "2" !CDS_SEC = "2";
@@ -477,7 +477,7 @@ BODY = "RSMD0402","I264": #LOCATION = "R43" !CDS_LOCATION = "R43" &SEC = "1" #&C
 BODY = "CAPCERSMDCL2","I270": #LOCATION = "C117" !CDS_LOCATION = "C117" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I272": LOCATION = "R40" #&CDS_LOCATION = "R40" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I272": LOCATION = "R14" #&CDS_LOCATION = "R14" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0402","I273": LOCATION = "R41" #&CDS_LOCATION = "R41" &SEC = "1" #&CDS_SEC = "1";
@@ -527,6 +527,24 @@ BODY = "RSMD0402","I314": LOCATION = "R61" #&CDS_LOCATION = "R61" &SEC = "1" #&C
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0402","I318": LOCATION = "R1" #&CDS_LOCATION = "R1" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0402","I320": LOCATION = "R40" #&CDS_LOCATION = "R40" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0402","I321": LOCATION = "R15" #&CDS_LOCATION = "R15" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0402","I323": LOCATION = "R44" #&CDS_LOCATION = "R44" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0402","I325": LOCATION = "R9" #&CDS_LOCATION = "R9" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0402","I326": LOCATION = "R32" #&CDS_LOCATION = "R32" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0402","I327": LOCATION = "R33" #&CDS_LOCATION = "R33" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page11";

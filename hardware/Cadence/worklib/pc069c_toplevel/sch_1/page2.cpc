@@ -103,30 +103,12 @@
 #ISCELL
   cnpower cvcc *
   page2_i252
-#ISCELL
-  cnpower cvcc *
-  page2_i253
-#ISCELL
-  cnpower cvcc *
-  page2_i254
-#ISCELL
-  cnpower cvcc *
-  page2_i255
-#ISCELL
-  cnpower cvcc *
-  page2_i256
 #CELL
   cnpassive rsmd0402 *
   page2_i257
-#ISCELL
-  cnpower cvcc *
-  page2_i258
 #CELL
   cnpassive rsmd0402 *
   page2_i259
-#ISCELL
-  cnpower cvcc *
-  page2_i260
 #ISCELL
   cnpower cvcc *
   page2_i262
@@ -248,9 +230,6 @@
   cnpower gnd *
   page2_i310
 #ISCELL
-  cnpower cvcc *
-  page2_i311
-#ISCELL
   cnpower gnd *
   page2_i313
 #CELL
@@ -265,6 +244,33 @@
 #CELL
   cnpassive rsmd0402 *
   page2_i318
+#ISCELL
+  cnpower p3v3 *
+  page2_i319
+#CELL
+  cnpassive rsmd0402 *
+  page2_i320
+#CELL
+  cnpassive rsmd0402 *
+  page2_i321
+#ISCELL
+  cnpower p3v3 *
+  page2_i322
+#CELL
+  cnpassive rsmd0402 *
+  page2_i323
+#ISCELL
+  cnpower cvcc *
+  page2_i324
+#CELL
+  cnpassive rsmd0402 *
+  page2_i325
+#CELL
+  cnpassive rsmd0402 *
+  page2_i326
+#CELL
+  cnpassive rsmd0402 *
+  page2_i327
 #ISCELL
   cnpower ctrlvcc *
   page2_i47

@@ -351,4 +351,8 @@
 		<property name="VALUE"  value="10uF"/>
 		<property name="VOLTAGE"  value="16V_GEN"/>
 	</component>
+	<component cell="si5395a" library="cninterface" partname="SI5395A" partno="Si5395A-A-GM" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="Si5395A-A-GM"/>
+	</component>
 </sc:shoppingCart>

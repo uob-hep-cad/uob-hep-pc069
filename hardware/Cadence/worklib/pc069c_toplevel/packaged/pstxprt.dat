@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 29-Jan-2025 AT 15:39:12 }
+{ Packager-XL run on 04-Feb-2025 AT 17:22:10 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC069C_TOPLEVEL';
- POST_TIME='29-Jan-2025 AT 15:39:12';
+ POST_TIME='04-Feb-2025 AT 17:22:10';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -444,7 +444,7 @@ dcl2(chips)',
  DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
  SIZE='1',
  PHYS_PAGE='2',
- XY='(3330,1680)',
+ XY='(3560,1670)',
  ROT='1',
  VER='1',
  PACK_TYPE='0402',
@@ -1797,7 +1797,7 @@ SECTION_NUMBER 1
  DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
  TYPE='24AA025E48T-I/SN',
  PHYS_PAGE='2',
- XY='(2430,1590)',
+ XY='(2650,1590)',
  ROT='0',
  VER='1',
  PACK_TYPE='SOIC',
@@ -3179,6 +3179,40 @@ chips)',
 chips.prt';
 
 PART_NAME
+ R9 'RSMD0402_0.0625W-XX,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I325@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i325@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i325@cnpassive.rsmd0402~
+(chips)',
+ PATH='I325',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(2560,2260)',
+ ROT='1',
+ VER='2',
+ PACK_TYPE='0.0625W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_0.0625W-XX,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='XX',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
+
+PART_NAME
  R10 'RSMD0402_1/16W-1K,1%':;
 
 SECTION_NUMBER 1
@@ -3311,6 +3345,74 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
+
+PART_NAME
+ R14 'RSMD0402_0.0625W-XX,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I272@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i272@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i272@cnpassive.rsmd0402~
+(chips)',
+ PATH='I272',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(-2980,1670)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='0.0625W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_0.0625W-XX,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='XX',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
+
+PART_NAME
+ R15 'RSMD0402_1/16W-0R0,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I321@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i321@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i321@cnpassive.rsmd0402~
+(chips)',
+ PATH='I321',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(410,2260)',
+ ROT='1',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-0R0,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='0R0',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
 chips.prt';
 
@@ -3865,6 +3967,74 @@ SECTION_NUMBER 1
 chips.prt';
 
 PART_NAME
+ R32 'RSMD0402_0.0625W-XX,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I326@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i326@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i326@cnpassive.rsmd0402~
+(chips)',
+ PATH='I326',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(1680,1740)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='0.0625W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_0.0625W-XX,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='XX',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
+
+PART_NAME
+ R33 'RSMD0402_0.0625W-XX,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I327@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i327@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i327@cnpassive.rsmd0402~
+(chips)',
+ PATH='I327',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(1980,1690)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='0.0625W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_0.0625W-XX,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='XX',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
+
+PART_NAME
  R34 'RSMD0603_1/10W-820,1%':;
 
 SECTION_NUMBER 1
@@ -4056,7 +4226,7 @@ SECTION_NUMBER 1
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='2',
- XY='(3000,1910)',
+ XY='(3220,1910)',
  ROT='1',
  VER='2',
  PACK_TYPE='1/16W',
@@ -4073,12 +4243,12 @@ PART_NAME
  R40 'RSMD0402_0.0625W-XX,1%':;
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I272@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i272@cnpassive.rsmd0402~
+ '@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I320@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i320@cnpassive.rsmd0402~
 (chips)',
- P_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i272@cnpassive.rsmd0402~
+ P_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i320@cnpassive.rsmd0402~
 (chips)',
- PATH='I272',
+ PATH='I320',
  DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
  SIZE='1',
  TOL_ON_OFF='ON',
@@ -4091,8 +4261,8 @@ SECTION_NUMBER 1
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='2',
- XY='(-2980,1670)',
- ROT='0',
+ XY='(150,2260)',
+ ROT='1',
  VER='2',
  PACK_TYPE='0.0625W',
  CDS_LIB='cnpassive',
@@ -4204,6 +4374,40 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
+
+PART_NAME
+ R44 'RSMD0402_1/16W-0R0,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2_I323@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i323@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc069_lib.pc069c_toplevel(sch_1):page2_i323@cnpassive.rsmd0402~
+(chips)',
+ PATH='I323',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(2820,2260)',
+ ROT='1',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-0R0,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='0R0',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
 chips.prt';
 
@@ -4807,7 +5011,7 @@ SECTION_NUMBER 1
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='2',
- XY='(1480,1750)',
+ XY='(1160,1740)',
  ROT='1',
  VER='2',
  PACK_TYPE='1/16W',
@@ -4842,7 +5046,7 @@ SECTION_NUMBER 1
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='2',
- XY='(1960,1900)',
+ XY='(2180,1900)',
  ROT='1',
  VER='2',
  PACK_TYPE='1/16W',
@@ -5050,7 +5254,7 @@ SECTION_NUMBER 1
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='2',
- XY='(2120,1900)',
+ XY='(2340,1900)',
  ROT='1',
  VER='2',
  PACK_TYPE='1/16W',

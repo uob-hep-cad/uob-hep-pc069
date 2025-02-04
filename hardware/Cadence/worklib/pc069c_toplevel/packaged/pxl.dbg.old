@@ -1,11 +1,11 @@
-Log File: C:\Users\phdgc\AppData\Local\Temp\se0o.0
-Markers File: C:\Users\phdgc\AppData\Local\Temp\se0o.1
-Debug File: C:\Users\phdgc\AppData\Local\Temp\se0o.3
+Log File: C:\Users\phdgc\AppData\Local\Temp\s2e4.0
+Markers File: C:\Users\phdgc\AppData\Local\Temp\s2e4.1
+Debug File: C:\Users\phdgc\AppData\Local\Temp\s2e4.3
      Debug[0] := TRUE
 Elapsed time since start = (00:00:03)
 
  **************************************************************
- *  End processing project file and command line  (00:00:02)  *
+ *  End processing project file and command line  (00:00:03)  *
  **************************************************************
 
 
@@ -13,11 +13,10 @@ Elapsed time since start = (00:00:03)
  *  Loading State Files  *
  *************************
 
-INFO(SPCODD-95): State file primitive @UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):PAGE4_I171@CNDISCRETE.FERRITE(CHIPS) has been deleted from the design.
-      Elapsed time since start = (00:04:20)
+Elapsed time since start = (00:04:05)
 
  *****************************************
- *  End loading State Files  (00:00:01)  *
+ *  End loading State Files  (00:00:00)  *
  *****************************************
 
 
@@ -25,7 +24,7 @@ INFO(SPCODD-95): State file primitive @UOB_HEP_PC069_LIB.PC069C_TOPLEVEL(SCH_1):
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:04:20)
+Elapsed time since start = (00:04:05)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -36,7 +35,7 @@ Elapsed time since start = (00:04:20)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:04:20)
+Elapsed time since start = (00:04:05)
 
  *******************************
  *  End packaging  (00:00:00)  *

@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 04-Feb-2025 AT 17:22:10 }
+{ Packager-XL run on 05-Feb-2025 AT 15:26:09 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3504,45 +3504,6 @@ primitive 'RSMD0402_1/16W-3.0K,1%';
       PARENT_PPT_PART='RSMD0402_1/16W-3.0K,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0402_1/16W-33,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0402';
-      BODY_NAME='RSMD0402';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0402';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0402_33R_1%_0.063W_200PPM';
-      VALUE='33';
-      TOL='1%';
-      PWR='0.063W';
-      JEDEC_TYPE='C0402';
-      MANUFACTURER='GENERIC';
-      PARENT_PART_TYPE='RSMD0402_1/16W';
-      PARENT_PPT='RSMD0402';
-      PARENT_PPT_PART='RSMD0402_1/16W-33,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0402_1/16W-4.7K,1%';
   pin
     'A'<0>:
@@ -3738,45 +3699,6 @@ primitive 'RSMD0603_1/10W-33,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-33,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-51,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_51R_1%_0.1W_100PPM';
-      VALUE='51';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-51,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0603_1/10W-820,1%';
   pin
     'A'<0>:
@@ -3844,7 +3766,7 @@ primitive 'SFP_CAGE-SP-74737-004';
       PARENT_PPT_PART='SFP_CAGE-SP-74737-004';
   end_body;
 end_primitive;
-primitive 'SI5345A-D-GM-VDD=P1V8,VDDA=P3V3';
+primitive 'SI5395A-A-GM-VDD=P1V8,VDDA=P3V3';
   pin
     'A0/CS':
       PIN_NUMBER='(19)';
@@ -4152,25 +4074,25 @@ primitive 'SI5345A-D-GM-VDD=P1V8,VDDA=P3V3';
       PINUSE='IN';
   end_pin;
   body
-      PART_NAME='SI5345';
-      BODY_NAME='SI5345';
+      PART_NAME='SI5395A-A-GM';
+      BODY_NAME='SI5395A-A-GM';
       PHYS_DES_PREFIX='IC';
       CLASS='IC';
       STATUS='Preferred';
-      PART_NUMBER='Si5345A-D-GM';
+      PART_NUMBER='Si5345A-A-GM';
       MANUFACTURER='SILICON LABS';
-      DESCRIPTION='712.5MHz (Integer+Fractional), 10-Channel, Any-Frequency, Any~
--Output Jitter Attenuator/Clock Multiplier';
+      DESCRIPTION='Jitter reducing clock generator NB This symbol copied from Si~
+5345 and does not have extra pins present in Si5395';
       DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/si5345.pdf';
       PINCOUNT='65';
       SMD='YES';
       CASE='QFN64';
       JEDEC_TYPE='QFN50P900X900X90-65N-S530';
       POWER_PINS='(GND:65;P1V8:32,46,60;P3V3:13)';
-      PARENT_PART_TYPE='SI5345_QFN';
+      PARENT_PART_TYPE='SI5395A-A-GM_QFN';
       SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='SI5345';
-      PARENT_PPT_PART='SI5345A-D-GM';
+      PARENT_PPT='SI5395A-A-GM';
+      PARENT_PPT_PART='SI5395A-A-GM';
   end_body;
 end_primitive;
 primitive 'SIT5021AI-2DE-25E-50.000000-VDA';

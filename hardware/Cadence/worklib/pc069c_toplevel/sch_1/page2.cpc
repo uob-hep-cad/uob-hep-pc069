@@ -224,9 +224,6 @@
   bris_cds_logic tmp1075ndrlr *
   page2_i308
 #ISCELL
-  cnpower cvcc *
-  page2_i309
-#ISCELL
   cnpower gnd *
   page2_i310
 #ISCELL
@@ -244,15 +241,6 @@
 #CELL
   cnpassive rsmd0402 *
   page2_i318
-#ISCELL
-  cnpower p3v3 *
-  page2_i319
-#CELL
-  cnpassive rsmd0402 *
-  page2_i320
-#CELL
-  cnpassive rsmd0402 *
-  page2_i321
 #ISCELL
   cnpower p3v3 *
   page2_i322

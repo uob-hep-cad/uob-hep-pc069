@@ -8,9 +8,6 @@
   cnpower gnd *
   page5_i245
 #CELL
-  cnpassive rsmd0603 *
-  page5_i274
-#CELL
   cnpassive rsmd0402 *
   page5_i275
 #ISCELL
@@ -70,9 +67,6 @@
 #CELL
   cnpassive rsmd0402 *
   page5_i300
-#CELL
-  cnpassive rsmd0603 *
-  page5_i301
 #ISCELL
   cnpower gnd *
   page5_i302
@@ -151,3 +145,15 @@
 #CELL
   cnpassive capcersmdcl2 *
   page5_i339
+#CELL
+  cnpassive rsmd0603 *
+  page5_i340
+#CELL
+  cnpassive rsmd0603 *
+  page5_i341
+#CELL
+  cnpassive rsmd0603 *
+  page5_i342
+#CELL
+  cnpassive rsmd0603 *
+  page5_i343

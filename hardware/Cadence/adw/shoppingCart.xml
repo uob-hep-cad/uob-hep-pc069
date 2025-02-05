@@ -355,4 +355,8 @@
 		<property name="PACK_TYPE"  value="QFN"/>
 		<property name="TYPE"  value="Si5395A-A-GM"/>
 	</component>
+	<component cell="si5395a-a-gm" library="bris_cds_logic" partname="SI5395A-A-GM" partno="Si5345A-A-GM" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="Si5395A-A-GM"/>
+	</component>
 </sc:shoppingCart>

@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024 on Tue Feb  4 17:21:10 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024 on Wed Feb  5 14:17:49 2025
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -483,9 +483,6 @@
   bris_cds_logic tmp1075ndrlr *
   page2_i308
 #ISCELL
-  cnpower cvcc *
-  page2_i309
-#ISCELL
   cnpower gnd *
   page2_i310
 #ISCELL
@@ -503,15 +500,6 @@
 #CELL
   cnpassive rsmd0402 *
   page2_i318
-#ISCELL
-  cnpower p3v3 *
-  page2_i319
-#CELL
-  cnpassive rsmd0402 *
-  page2_i320
-#CELL
-  cnpassive rsmd0402 *
-  page2_i321
 #ISCELL
   cnpower p3v3 *
   page2_i322
@@ -754,15 +742,12 @@
   page4_i120
 #CELL
   cnpassive rsmd0402 *
-  page4_i123
-#CELL
-  cnpassive rsmd0402 *
   page4_i124
 #ISCELL
   cnpower gnd *
   page4_i127
 #CELL
-  cninterface si5345 *
+  bris_cds_logic si5395a-a-gm *
   page4_i129
 #ISCELL
   cnpower p3v3 *
@@ -860,9 +845,6 @@
 #CELL
   cnconnector pcoax *
   page4_i161
-#CELL
-  cnpassive rsmd0603 *
-  page4_i162
 #ISCELL
   cnpower gnd *
   page4_i163
@@ -896,6 +878,15 @@
 #ISCELL
   cnpower p3v3 *
   page4_i180
+#CELL
+  cnpassive rsmd0603 *
+  page4_i181
+#CELL
+  cnpassive rsmd0603 *
+  page4_i182
+#CELL
+  cnpassive rsmd0603 *
+  page4_i183
 #CELL
   cnpassive rsmd0402 *
   page4_i26
@@ -990,9 +981,6 @@
   cnpower gnd *
   page5_i245
 #CELL
-  cnpassive rsmd0603 *
-  page5_i274
-#CELL
   cnpassive rsmd0402 *
   page5_i275
 #ISCELL
@@ -1052,9 +1040,6 @@
 #CELL
   cnpassive rsmd0402 *
   page5_i300
-#CELL
-  cnpassive rsmd0603 *
-  page5_i301
 #ISCELL
   cnpower gnd *
   page5_i302
@@ -1133,3 +1118,15 @@
 #CELL
   cnpassive capcersmdcl2 *
   page5_i339
+#CELL
+  cnpassive rsmd0603 *
+  page5_i340
+#CELL
+  cnpassive rsmd0603 *
+  page5_i341
+#CELL
+  cnpassive rsmd0603 *
+  page5_i342
+#CELL
+  cnpassive rsmd0603 *
+  page5_i343

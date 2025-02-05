@@ -60,15 +60,12 @@
   page4_i120
 #CELL
   cnpassive rsmd0402 *
-  page4_i123
-#CELL
-  cnpassive rsmd0402 *
   page4_i124
 #ISCELL
   cnpower gnd *
   page4_i127
 #CELL
-  cninterface si5345 *
+  bris_cds_logic si5395a-a-gm *
   page4_i129
 #ISCELL
   cnpower p3v3 *
@@ -166,9 +163,6 @@
 #CELL
   cnconnector pcoax *
   page4_i161
-#CELL
-  cnpassive rsmd0603 *
-  page4_i162
 #ISCELL
   cnpower gnd *
   page4_i163
@@ -202,6 +196,15 @@
 #ISCELL
   cnpower p3v3 *
   page4_i180
+#CELL
+  cnpassive rsmd0603 *
+  page4_i181
+#CELL
+  cnpassive rsmd0603 *
+  page4_i182
+#CELL
+  cnpassive rsmd0603 *
+  page4_i183
 #CELL
   cnpassive rsmd0402 *
   page4_i26

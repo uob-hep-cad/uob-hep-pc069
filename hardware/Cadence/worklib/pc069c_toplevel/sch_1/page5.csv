@@ -1,43 +1,43 @@
 FILE_TYPE = CONNECTIVITY;
-{Allegro Design Entry HDL 23.1 P001 (4147275) 9/30/2023}
+{Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024}
 "PAGE_NUMBER" = 5;
 0"NC";
-1"GND\g";
-2"P3V3\g";
-3"P3V3\g";
-4"GND\g";
-5"GND\g";
+1"P3V3\g";
+2"GND\g";
+3"GND\g";
+4"P3V3\g";
+5"P3V3\g";
 6"GND\g";
 7"GND\g";
 8"GND\g";
 9"P3V3\g";
 10"GND\g";
 11"GND\g";
-12"P3V3\g";
+12"GND\g";
 13"GND\g";
 14"GND\g";
-15"T_MCX_CLK0";
-16"UN$5$74LCX04$I323$Y";
-17"F_GPIO_OUT1_P";
-18"F_GPIO_OUT1_N";
-19"F_GPIO_OUT0_N";
-20"F_GPIO_OUT0_P";
-21"UN$5$PCOAX$I315$A";
-22"S_GPIO_IN1";
-23"S_GPIO_IN0";
-24"P3V3\g";
-25"GND\g";
-26"UN$5$ADCMP604$I285$";
-27"GPIO_IN0_P";
-28"GPIO_IN0_N";
-29"UN$5$74LCX04$I317$A";
-30"UN$5$PCOAX$I321$A";
-31"UN$5$PCOAX$I312$A";
-32"UN$5$74LCX04$I304$Y";
-33"UN$5$74LCX04$I317$Y";
-34"UN$5$74LCX04$I323$A";
-35"GPIO_IN1_N";
-36"GPIO_IN1_P";
+15"P3V3\g";
+16"GND\g";
+17"S_GPIO_IN1";
+18"S_GPIO_IN0";
+19"UN$5$ADCMP604$I285$";
+20"F_GPIO_OUT1_N";
+21"F_GPIO_OUT1_P";
+22"GPIO_IN0_N";
+23"GPIO_IN1_P";
+24"GPIO_IN1_N";
+25"T_MCX_CLK0";
+26"UN$5$74LCX04$I323$Y";
+27"F_GPIO_OUT0_N";
+28"F_GPIO_OUT0_P";
+29"UN$5$PCOAX$I315$A";
+30"GPIO_IN0_P";
+31"UN$5$74LCX04$I317$A";
+32"UN$5$PCOAX$I321$A";
+33"UN$5$PCOAX$I312$A";
+34"UN$5$74LCX04$I304$Y";
+35"UN$5$74LCX04$I317$Y";
+36"UN$5$74LCX04$I323$A";
 37"UN$5$ADCMP604$I294$";
 %"P3V3"
 "1","(840,1370)","0","cnpower","I243";
@@ -47,7 +47,7 @@ BODY_TYPE"PLUMBING"
 SIZE"1B"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"24;
+VHDL_INIT"1"1;
 %"GND"
 "1","(840,880)","0","cnpower","I245";
 ;
@@ -56,33 +56,7 @@ SIZE"1B"
 HDL_POWER"GND"
 BODY_TYPE"PLUMBING";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"25;
-%"RSMD0603"
-"2","(-2590,2460)","1","cnpassive","I274";
-;
-$SEC"1"
-$LOCATION"R30"
-VALUE"51"
-TOL"1%"
-CDS_LOCATION"R30"
-CDS_SEC"1"
-VOLTAGE"RVMAX"
-TOL_ON_OFF"ON"
-TC2"RTMPQ"
-TC1"RTMPL"
-SLOPE"RSMAX"
-SIZE"1B"
-POWER"RMAX"
-POSTOL"RTOL%"
-NEGTOL"RTOL%"
-MAX_TEMP"RTMAX"
-DIST"FLAT"
-CDS_LIB"cnpassive"
-PACK_TYPE"1/10W";
-"A <SIZE-1..0>\NAC"
-$PN"1"7;
-"B <SIZE-1..0>\NAC"
-$PN"2"23;
+VHDL_INIT"0"2;
 %"RSMD0402"
 "2","(-2050,2370)","1","cnpassive","I275";
 ;
@@ -106,9 +80,9 @@ CDS_LOCATION"R36"
 CDS_SEC"1"
 TOL"1%";
 "A <SIZE-1..0>\NAC"
-$PN"1"6;
+$PN"1"14;
 "B <SIZE-1..0>\NAC"
-$PN"2"26;
+$PN"2"19;
 %"GND"
 "1","(-790,3020)","0","cnpower","I277";
 ;
@@ -117,7 +91,7 @@ SIZE"1B"
 HDL_POWER"GND"
 BODY_TYPE"PLUMBING";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"1;
+VHDL_INIT"0"3;
 %"P3V3"
 "1","(-1230,3270)","0","cnpower","I279";
 ;
@@ -126,7 +100,7 @@ SIZE"1B"
 CDS_LIB"cnpower"
 BODY_TYPE"PLUMBING";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"2;
+VHDL_INIT"1"4;
 %"P3V3"
 "1","(-2050,3250)","0","cnpower","I281";
 ;
@@ -135,7 +109,7 @@ BODY_TYPE"PLUMBING"
 CDS_LIB"cnpower"
 SIZE"1B";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"3;
+VHDL_INIT"1"5;
 %"RSMD0402"
 "2","(-2050,2950)","1","cnpassive","I282";
 ;
@@ -159,9 +133,9 @@ CDS_LOCATION"R35"
 $SEC"1"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"26;
+$PN"1"19;
 "B <SIZE-1..0>\NAC"
-$PN"2"3;
+$PN"2"5;
 %"PCOAX"
 "1","(-2930,2690)","2","cnconnector","I284";
 ;
@@ -173,7 +147,7 @@ CDS_LOCATION"PX2"
 $SEC"1"
 CDS_SEC"1";
 "A\NAC"
-$PN"1"23;
+$PN"1"18;
 %"ADCMP604"
 "1","(-1180,2640)","0","cnlinear","I285";
 ;
@@ -185,17 +159,17 @@ CDS_LOCATION"IC6"
 $SEC"1"
 CDS_SEC"1";
 "Q"
-$PN"1"27;
+$PN"1"30;
 "Q* \B"
-$PN"6"28;
+$PN"6"22;
 "VEE"
-$PN"2"4;
+$PN"2"6;
 "+IN"
-$PN"3"23;
+$PN"3"18;
 "-IN"
-$PN"4"26;
+$PN"4"19;
 "VCC"
-$PN"5"2;
+$PN"5"4;
 %"GND"
 "1","(-1230,2120)","0","cnpower","I286";
 ;
@@ -204,7 +178,7 @@ HDL_POWER"GND"
 SIZE"1B"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"4;
+VHDL_INIT"0"6;
 %"GND"
 "1","(-1670,2130)","0","cnpower","I287";
 ;
@@ -213,7 +187,7 @@ HDL_POWER"GND"
 SIZE"1B"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"5;
+VHDL_INIT"0"7;
 %"GND"
 "1","(-2050,2140)","0","cnpower","I288";
 ;
@@ -222,7 +196,7 @@ SIZE"1B"
 HDL_POWER"GND"
 BODY_TYPE"PLUMBING";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"6;
+VHDL_INIT"0"14;
 %"GND"
 "1","(-2590,2140)","0","cnpower","I289";
 ;
@@ -231,7 +205,7 @@ HDL_POWER"GND"
 SIZE"1B"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"7;
+VHDL_INIT"0"16;
 %"GND"
 "1","(-780,1540)","0","cnpower","I291";
 ;
@@ -261,13 +235,13 @@ CDS_LOCATION"IC7"
 $SEC"1"
 CDS_SEC"1";
 "Q"
-$PN"1"36;
+$PN"1"23;
 "Q* \B"
-$PN"6"35;
+$PN"6"24;
 "VEE"
 $PN"2"10;
 "+IN"
-$PN"3"22;
+$PN"3"17;
 "-IN"
 $PN"4"37;
 "VCC"
@@ -298,7 +272,7 @@ SIZE"1B"
 CDS_LIB"cnpower"
 BODY_TYPE"PLUMBING";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"12;
+VHDL_INIT"1"15;
 %"RSMD0402"
 "2","(-2040,1410)","1","cnpassive","I298";
 ;
@@ -324,7 +298,7 @@ CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
 $PN"1"37;
 "B <SIZE-1..0>\NAC"
-$PN"2"12;
+$PN"2"15;
 %"GND"
 "1","(-2040,650)","0","cnpower","I299";
 ;
@@ -333,7 +307,7 @@ HDL_POWER"GND"
 SIZE"1B"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"13;
+VHDL_INIT"0"12;
 %"RSMD0402"
 "2","(-2040,880)","1","cnpassive","I300";
 ;
@@ -357,35 +331,9 @@ CDS_LOCATION"R38"
 CDS_SEC"1"
 TOL"1%";
 "A <SIZE-1..0>\NAC"
-$PN"1"13;
+$PN"1"12;
 "B <SIZE-1..0>\NAC"
 $PN"2"37;
-%"RSMD0603"
-"2","(-2510,990)","1","cnpassive","I301";
-;
-$SEC"1"
-VALUE"51"
-TOL"1%"
-$LOCATION"R31"
-CDS_LOCATION"R31"
-CDS_SEC"1"
-VOLTAGE"RVMAX"
-TOL_ON_OFF"ON"
-TC2"RTMPQ"
-TC1"RTMPL"
-SLOPE"RSMAX"
-SIZE"1B"
-POWER"RMAX"
-POSTOL"RTOL%"
-NEGTOL"RTOL%"
-MAX_TEMP"RTMAX"
-DIST"FLAT"
-CDS_LIB"cnpassive"
-PACK_TYPE"1/10W";
-"A <SIZE-1..0>\NAC"
-$PN"1"14;
-"B <SIZE-1..0>\NAC"
-$PN"2"22;
 %"GND"
 "1","(-2510,650)","0","cnpower","I302";
 ;
@@ -394,7 +342,7 @@ SIZE"1B"
 HDL_POWER"GND"
 BODY_TYPE"PLUMBING";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"14;
+VHDL_INIT"0"13;
 %"PCOAX"
 "1","(-2850,1200)","2","cnconnector","I303";
 ;
@@ -406,7 +354,7 @@ CDS_LOCATION"PX3"
 $SEC"1"
 CDS_SEC"1";
 "A\NAC"
-$PN"1"22;
+$PN"1"17;
 %"74LCX04"
 "1","(2370,4350)","0","cninterface","I304";
 ;
@@ -419,9 +367,9 @@ CDS_LOCATION"IC9"
 $SEC"2"
 CDS_SEC"2";
 "A <SIZE-1..0>"
-$PN"11"15;
+$PN"11"25;
 "Y <SIZE-1..0>* \B"
-$PN"10"32;
+$PN"10"34;
 %"74LCX04"
 "1","(2370,4770)","0","cninterface","I310";
 ;
@@ -434,9 +382,9 @@ CDS_LOCATION"IC9"
 $SEC"1"
 CDS_SEC"1";
 "A <SIZE-1..0>"
-$PN"13"15;
+$PN"13"25;
 "Y <SIZE-1..0>* \B"
-$PN"12"32;
+$PN"12"34;
 %"RSMD0603"
 "2","(2940,4770)","0","cnpassive","I311";
 ;
@@ -460,9 +408,9 @@ CDS_LOCATION"R47"
 $SEC"1"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"32;
+$PN"1"34;
 "B <SIZE-1..0>\NAC"
-$PN"2"31;
+$PN"2"33;
 %"PCOAX"
 "1","(3340,4770)","0","cnconnector","I312";
 ;
@@ -474,7 +422,7 @@ CDS_LOCATION"PX4"
 $SEC"1"
 CDS_SEC"1";
 "A\NAC"
-$PN"1"31;
+$PN"1"33;
 %"PCOAX"
 "1","(3340,2790)","0","cnconnector","I315";
 ;
@@ -486,7 +434,7 @@ CDS_LOCATION"PX6"
 $SEC"1"
 CDS_SEC"1";
 "A\NAC"
-$PN"1"21;
+$PN"1"29;
 %"RSMD0603"
 "2","(2940,2790)","0","cnpassive","I316";
 ;
@@ -510,9 +458,9 @@ CDS_LOCATION"R49"
 $SEC"1"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"33;
+$PN"1"35;
 "B <SIZE-1..0>\NAC"
-$PN"2"21;
+$PN"2"29;
 %"74LCX04"
 "1","(2370,2790)","0","cninterface","I317";
 ;
@@ -525,9 +473,9 @@ CDS_LOCATION"IC9"
 $SEC"5"
 CDS_SEC"5";
 "A <SIZE-1..0>"
-$PN"3"29;
+$PN"3"31;
 "Y <SIZE-1..0>* \B"
-$PN"4"33;
+$PN"4"35;
 %"74LCX04"
 "1","(2370,2370)","0","cninterface","I318";
 ;
@@ -540,9 +488,9 @@ CDS_LOCATION"IC9"
 $SEC"6"
 CDS_SEC"6";
 "A <SIZE-1..0>"
-$PN"1"29;
+$PN"1"31;
 "Y <SIZE-1..0>* \B"
-$PN"2"33;
+$PN"2"35;
 %"RSMD0402"
 "2","(1400,2720)","0","cnpassive","I319";
 ;
@@ -566,9 +514,9 @@ DIST"FLAT"
 CDS_LIB"cnpassive"
 PACK_TYPE"1/16W";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"20;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"21;
 %"PCOAX"
 "1","(3340,3780)","0","cnconnector","I321";
 ;
@@ -580,7 +528,7 @@ CDS_LOCATION"PX5"
 $SEC"1"
 CDS_SEC"1";
 "A\NAC"
-$PN"1"30;
+$PN"1"32;
 %"RSMD0603"
 "2","(2940,3780)","0","cnpassive","I322";
 ;
@@ -604,9 +552,9 @@ TOL"1%"
 $SEC"1"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"16;
+$PN"1"26;
 "B <SIZE-1..0>\NAC"
-$PN"2"30;
+$PN"2"32;
 %"74LCX04"
 "1","(2370,3770)","0","cninterface","I323";
 ;
@@ -619,9 +567,9 @@ CDS_LOCATION"IC9"
 $SEC"3"
 CDS_SEC"3";
 "A <SIZE-1..0>"
-$PN"9"34;
+$PN"9"36;
 "Y <SIZE-1..0>* \B"
-$PN"8"16;
+$PN"8"26;
 %"74LCX04"
 "1","(2370,3360)","0","cninterface","I324";
 ;
@@ -634,9 +582,9 @@ CDS_LOCATION"IC9"
 $SEC"4"
 CDS_SEC"4";
 "A <SIZE-1..0>"
-$PN"5"34;
+$PN"5"36;
 "Y <SIZE-1..0>* \B"
-$PN"6"16;
+$PN"6"26;
 %"RSMD0402"
 "2","(1390,3710)","0","cnpassive","I325";
 ;
@@ -660,9 +608,9 @@ DIST"FLAT"
 CDS_LIB"cnpassive"
 PACK_TYPE"1/16W";
 "A <SIZE-1..0>\NAC"
-$PN"1"19;
+$PN"1"27;
 "B <SIZE-1..0>\NAC"
-$PN"2"20;
+$PN"2"28;
 %"DS90LV028A"
 "1","(1850,3560)","0","cninterface","I327";
 ;
@@ -673,11 +621,11 @@ CDS_LOCATION"IC8"
 $SEC"1"
 CDS_SEC"1";
 "RO <SIZE-1..0>"
-$PN"6"34;
+$PN"6"36;
 "RIP <SIZE-1..0>"
-$PN"3"20;
+$PN"3"28;
 "RIM <SIZE-1..0>"
-$PN"4"19;
+$PN"4"27;
 %"DS90LV028A"
 "1","(1860,2570)","0","cninterface","I328";
 ;
@@ -688,11 +636,11 @@ CDS_LOCATION"IC8"
 $SEC"2"
 CDS_SEC"2";
 "RO <SIZE-1..0>"
-$PN"7"29;
+$PN"7"31;
 "RIP <SIZE-1..0>"
-$PN"2"17;
+$PN"2"21;
 "RIM <SIZE-1..0>"
-$PN"1"18;
+$PN"1"20;
 %"CAPCERSMDCL2"
 "1","(-980,3130)","0","cnpassive","I332";
 ;
@@ -706,9 +654,9 @@ SIZE"1"
 CDS_LOCATION"C55"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"2;
+$PN"1"4;
 "B <SIZE-1..0>\NAC"
-$PN"2"1;
+$PN"2"3;
 %"CAPCERSMDCL2"
 "1","(-1670,2360)","1","cnpassive","I333";
 ;
@@ -722,9 +670,9 @@ SIZE"1"
 CDS_LOCATION"C52"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"5;
+$PN"1"7;
 "B <SIZE-1..0>\NAC"
-$PN"2"26;
+$PN"2"19;
 %"CAPCERSMDCL2"
 "1","(-960,1640)","0","cnpassive","I334";
 ;
@@ -770,9 +718,9 @@ SIZE"1"
 CDS_LOCATION"C58"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"25;
+$PN"1"2;
 "B <SIZE-1..0>\NAC"
-$PN"2"24;
+$PN"2"1;
 %"CAPCERSMDCL2"
 "1","(1210,1140)","1","cnpassive","I337";
 ;
@@ -786,9 +734,9 @@ SIZE"1"
 CDS_LOCATION"C59"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"25;
+$PN"1"2;
 "B <SIZE-1..0>\NAC"
-$PN"2"24;
+$PN"2"1;
 %"CAPCERSMDCL2"
 "1","(840,1150)","1","cnpassive","I338";
 ;
@@ -802,9 +750,9 @@ SIZE"1"
 CDS_LOCATION"C57"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"25;
+$PN"1"2;
 "B <SIZE-1..0>\NAC"
-$PN"2"24;
+$PN"2"1;
 %"CAPCERSMDCL2"
 "1","(1420,1150)","1","cnpassive","I339";
 ;
@@ -818,7 +766,111 @@ SIZE"1"
 CDS_LOCATION"C60"
 CDS_SEC"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"25;
+$PN"1"2;
 "B <SIZE-1..0>\NAC"
-$PN"2"24;
+$PN"2"1;
+%"RSMD0603"
+"2","(-2590,2460)","3","cnpassive","I340";
+;
+VOLTAGE"RVMAX"
+TOL_ON_OFF"ON"
+TC2"RTMPQ"
+TC1"RTMPL"
+SLOPE"RSMAX"
+SIZE"1B"
+POWER"RMAX"
+POSTOL"RTOL%"
+NEGTOL"RTOL%"
+MAX_TEMP"RTMAX"
+DIST"FLAT"
+CDS_LIB"cnpassive"
+PACK_TYPE"1/10W"
+$SEC"1"
+CDS_SEC"1"
+CDS_LOCATION"R3"
+TOL"1%"
+$LOCATION"R3"
+VALUE"100";
+"A <SIZE-1..0>\NAC"
+$PN"1"18;
+"B <SIZE-1..0>\NAC"
+$PN"2"16;
+%"RSMD0603"
+"2","(-2400,2470)","3","cnpassive","I341";
+;
+TOL"1%"
+$LOCATION"R3"
+VALUE"100"
+VOLTAGE"RVMAX"
+TOL_ON_OFF"ON"
+TC2"RTMPQ"
+TC1"RTMPL"
+SLOPE"RSMAX"
+SIZE"1B"
+POWER"RMAX"
+POSTOL"RTOL%"
+NEGTOL"RTOL%"
+MAX_TEMP"RTMAX"
+DIST"FLAT"
+CDS_LIB"cnpassive"
+PACK_TYPE"1/10W"
+$SEC"1"
+CDS_SEC"1"
+CDS_LOCATION"R3";
+"A <SIZE-1..0>\NAC"
+$PN"1"18;
+"B <SIZE-1..0>\NAC"
+$PN"2"16;
+%"RSMD0603"
+"2","(-2510,990)","3","cnpassive","I342";
+;
+TOL"1%"
+$LOCATION"R3"
+VALUE"100"
+VOLTAGE"RVMAX"
+TOL_ON_OFF"ON"
+TC2"RTMPQ"
+TC1"RTMPL"
+SLOPE"RSMAX"
+SIZE"1B"
+POWER"RMAX"
+POSTOL"RTOL%"
+NEGTOL"RTOL%"
+MAX_TEMP"RTMAX"
+DIST"FLAT"
+CDS_LIB"cnpassive"
+PACK_TYPE"1/10W"
+$SEC"1"
+CDS_SEC"1"
+CDS_LOCATION"R3";
+"A <SIZE-1..0>\NAC"
+$PN"1"17;
+"B <SIZE-1..0>\NAC"
+$PN"2"13;
+%"RSMD0603"
+"2","(-2330,990)","3","cnpassive","I343";
+;
+TOL"1%"
+$LOCATION"R3"
+VALUE"100"
+VOLTAGE"RVMAX"
+TOL_ON_OFF"ON"
+TC2"RTMPQ"
+TC1"RTMPL"
+SLOPE"RSMAX"
+SIZE"1B"
+POWER"RMAX"
+POSTOL"RTOL%"
+NEGTOL"RTOL%"
+MAX_TEMP"RTMAX"
+DIST"FLAT"
+CDS_LIB"cnpassive"
+PACK_TYPE"1/10W"
+$SEC"1"
+CDS_SEC"1"
+CDS_LOCATION"R3";
+"A <SIZE-1..0>\NAC"
+$PN"1"17;
+"B <SIZE-1..0>\NAC"
+$PN"2"13;
 END.

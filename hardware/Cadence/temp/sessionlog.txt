@@ -1,15 +1,24 @@
-06/27/22  11:23:00		Opening project /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm
-06/27/22  11:23:00		cdslib /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/cds.lib opened
-06/27/22  11:23:00		Project /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm opened
-06/27/22  11:23:08		Loading cell tmp1075ndrlr from library bris_cds_logic
-06/27/22  11:23:08		Loading view sym_1 of cell tmp1075ndrlr
-06/27/22  11:23:08		Loading view chips of cell tmp1075ndrlr
-06/27/22  11:23:08		Loading view part_table of cell tmp1075ndrlr
-06/27/22  11:23:08		File master.tag does not exist. Check the filename and location.
-06/27/22  11:23:08		Loading file part.ptf of PTF view part_table of cell tmp1075ndrlr
-06/27/22  11:23:08		Loading cell tmp1075ndrlr from library bris_cds_logic
-06/27/22  11:23:08		Analyzing view relationships of cell tmp1075ndrlr in library bris_cds_logic
-06/27/22  11:23:08		Completed loading cell tmp1075ndrlr from library bris_cds_logic
-06/27/22  11:23:08		Starting validations on cell tmp1075ndrlr of library bris_cds_logic
-06/27/22  11:23:08		Completed validations on cell tmp1075ndrlr of library bris_cds_logic
-06/27/22  11:29:37		Project /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm is closed.
+02/05/25  13:05:58		Opening project C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/pc069c_toplevel.cpm
+02/05/25  13:05:58		cdslib C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/cds.lib opened
+02/05/25  13:05:58		Project C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/pc069c_toplevel.cpm opened
+02/05/25  13:06:52		Loading cell si5345 from library cninterface
+02/05/25  13:06:52		Loading view sym_1 of cell si5345
+02/05/25  13:06:52		Loading view chips of cell si5345
+02/05/25  13:06:53		Loading view part_table of cell si5345
+02/05/25  13:06:53		Loading file si5345.ptf of PTF view part_table of cell si5345
+02/05/25  13:06:53		Loading view entity of cell si5345
+02/05/25  13:06:53		Loading cell si5345 from library cninterface
+02/05/25  13:06:53		Analyzing view relationships of cell si5345 in library cninterface
+02/05/25  13:06:53		Completed loading cell si5345 from library cninterface
+02/05/25  13:06:53		Starting validations on cell si5345 of library cninterface
+02/05/25  13:06:53		Completed validations on cell si5345 of library cninterface
+02/05/25  13:07:03		Starting validations on cell si5345 of library cninterface
+02/05/25  13:07:03		Completed validations on cell si5345 of library cninterface
+02/05/25  13:08:44		Completed saving cell si5395a-a-gm in library bris_cds_logic 
+02/05/25  13:08:44		Starting validations on cell si5395a-a-gm of library bris_cds_logic
+02/05/25  13:08:44		Completed validations on cell si5395a-a-gm of library bris_cds_logic
+02/05/25  13:13:48		Starting validations on cell si5395a-a-gm of library bris_cds_logic
+02/05/25  13:13:48		Completed validations on cell si5395a-a-gm of library bris_cds_logic
+02/05/25  13:13:49		Completed saving cell si5395a-a-gm in library bris_cds_logic 
+02/05/25  14:27:51		Loading file SI5395A-A-GM.ptf of PTF view part_table of cell si5395a-a-gm
+02/05/25  14:28:05		Project C:/Users/phdgc/Downloads/uob-hep-pc069/hardware/Cadence/pc069c_toplevel.cpm is closed.

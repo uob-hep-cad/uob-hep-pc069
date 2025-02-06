@@ -1,0 +1,93 @@
+
+
+pc069
+
+Version = C
+Subversion = 25
+
+This file describes PCB fabrication details for a "reference hardware" FMC
+to allow evaluation of the DUNE timing system
+https://github.com/uob-hep-cad/uob-hep-pc069
+
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+
+Files produced by Cadence Allegro 24.1
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+Six Layers as follows:
+
+art_L1_TOP_pc069c.art
+art_L2_GND_pc069c.art
+art_L3_SIGN_pc069c.art
+art_L4_SIGN_pc069c.art
+art_L5_PWR_pc069c.art
+art_L6_BOT_pc069c.art
+
+
+Solder Masks
+------------
+
+art_SOLDERMASK_TOP_pc069c.art
+art_SOLDERMASK_BOTTOM_pc069c.art
+
+Solderpaste mask
+-----------------
+
+art_PASTEMASK_TOP_pc069c.art
+art_PASTEMASK_BOTTOM_pc069c.art
+
+Silk screen
+-----------
+
+art_SILK_TOP_pc069c.art
+art_SILK_BOT_pc069c.art
+
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+art_OUTLINE_pc069c.art
+
+Drill figure: ( illustration of hole sizes and position )
+-------------
+
+art_DRILL-1-6_pc069c.art
+
+Drill information ( Excellon format, described in nc_param.txt )
+----------------------------------------------------------------
+
+pc069c_25-1-6.drl
+
+
+Bill of Materials 
+-----------------
+
+pc069c_summary_bom_mouser.xlsx
+
+(We used the Mouser FORTE tool to produce this BoM. However, componenents do not have to be purchased from Mouser)
+
+Component placement
+-------------------
+
+Placement information in ODB++ format: pc069c_toplevel_25.tgz
+
+
+Fiducial Marks
+--------------
+
+Three 2mm diameter round copper marks. Repeated top and bottom
+
+
+
